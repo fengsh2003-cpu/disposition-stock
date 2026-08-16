@@ -1,0 +1,13 @@
+{
+  "name": "處置股前科查詢",
+  "short_name": "處置前科",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f6f4fb",
+  "theme_color": "#5b3fb0",
+  "lang": "zh-Hant",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

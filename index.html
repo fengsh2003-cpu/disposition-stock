@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>處置股前科查詢</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#5b3fb0">
+<style>
+  :root {
+    --purple: #7c5cd6;
+    --purple-dark: #5b3fb0;
+    --purple-light: #f3effc;
+    --card-bg: #ffffff;
+    --page-bg: #f6f4fb;
+    --text: #2b2540;
+    --text-dim: #7a7390;
+    --red: #e5484d;
+    --green: #2f9e44;
+    --border: #e6e0f5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+    background: var(--page-bg);
+    color: var(--text);
+    padding-bottom: 32px;
+  }
+  header {
+    background: linear-gradient(135deg, var(--purple), var(--purple-dark));
+    color: #fff;
+    padding: 18px 16px 22px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  header h1 {
+    margin: 0 0 4px;
+    font-size: 1.15rem;
+  }
+  header p {
+    margin: 0;
+    font-size: 0.75rem;
+    opacity: 0.85;
+  }
+  .search-box {
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+  }
+  .search-box input {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+  }
+  .search-box button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    color: var(--purple-dark);
+    font-weight: 600;
+  }
+  main {
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .card {
+    background: var(--card-bg);
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 1px 3px rgba(90, 60, 160, 0.08);
+  }
+  .card h2 {
+    font-size: 0.95rem;
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .card h2 .sub {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    font-weight: 400;
+  }
+  .lookup-result {
+    display: none;
+  }
+  .lookup-result.show { display: block; }
+  .stock-title {
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+  }
+  .badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-left: 6px;
+  }
+  .badge.disposal { background: #fde2e2; color: var(--red); }
+  .badge.attention { background: #fff3d6; color: #b8860b; }
+  .badge.clean { background: #e3f6e6; color: var(--green); }
+  .rec-row {
+    border-top: 1px solid var(--border);
+    padding: 8px 0;
+    font-size: 0.85rem;
+  }
+  .rec-row .rec-date { color: var(--purple-dark); font-weight: 600; }
+  .rec-row .rec-reason { color: var(--text-dim); margin-top: 2px; line-height: 1.4; }
+  .empty { color: var(--text-dim); font-size: 0.85rem; padding: 8px 0; }
+  .day-col-scroll {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .day-col {
+    min-width: 150px;
+    background: var(--purple-light);
+    border-radius: 10px;
+    padding: 8px 10px;
+    flex-shrink: 0;
+  }
+  .day-col .day-head {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--purple-dark);
+    margin-bottom: 6px;
+  }
+  .day-col .stock-item {
+    font-size: 0.78rem;
+    padding: 3px 0;
+  }
+  .group-row {
+    padding: 6px 0;
+    border-top: 1px solid var(--border);
+    font-size: 0.82rem;
+  }
+  .group-row .group-name {
+    font-weight: 700;
+    color: var(--purple-dark);
+  }
+  .group-row .group-count {
+    color: var(--text-dim);
+    font-weight: 400;
+  }
+  .group-row .members {
+    margin-top: 3px;
+    color: var(--text);
+    line-height: 1.5;
+  }
+  footer {
+    padding: 10px 20px 30px;
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+    text-align: center;
+  }
+  .meta-line {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    margin-bottom: 8px;
+  }
+  .stock-item.disposal { color: var(--red); }
+  .stock-item.attention { color: #b8860b; }
+  .chart-wrap {
+    margin: 10px 0 4px;
+  }
+  .chart-wrap canvas {
+    width: 100%;
+    height: 140px;
+    display: block;
+  }
+  .chart-legend {
+    display: flex;
+    gap: 14px;
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+  .chart-legend .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .chart-note {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🔍 個股前科查詢</h1>
+  <p>打股號 → 看它的處置前科、最近任欠、明天判定（不含明日預測）</p>
+  <div class="search-box">
+    <input id="searchInput" inputmode="numeric" placeholder="輸入股票代號，如 2330" />
+    <button id="searchBtn">查前科</button>
+  </div>
+</header>
+
+<main>
+
+  <div class="card lookup-result" id="lookupCard">
+    <div id="lookupBody"></div>
+  </div>
+
+  <div class="card" id="todayCard">
+    <h2>🔒 今日入獄 / 新列注意 <span class="sub" id="asOfLabel"></span></h2>
+    <div id="todayBody"></div>
+  </div>
+
+  <div class="card">
+    <h2>📅 一週出獄時間表 <span class="sub">處置期滿，恢復正常交易的日子</span></h2>
+    <div class="day-col-scroll" id="releaseScroll"></div>
+  </div>
+
+  <div class="card">
+    <h2>🚩 犯罪集團同族群 <span class="sub">同族群 ≥2 檔同時被關或即將被關</span></h2>
+    <div id="groupBody"></div>
+  </div>
+
+</main>
+
+<footer id="footerNote">載入中…</footer>
+
+<script>
+let DATA = null;
+
+async function loadData() {
+  const res = await fetch('disposal_export.json', { cache: 'no-store' });
+  DATA = await res.json();
+  render();
+}
+
+function esc(s) {
+  return (s || '').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function render() {
+  document.getElementById('asOfLabel').textContent = '（' + DATA.as_of + '）';
+  renderToday();
+  renderRelease();
+  renderGroups();
+  document.getElementById('footerNote').innerHTML =
+    '資料源：' + esc(DATA.source) + '<br>產生時間：' + esc(DATA.generated_at) +
+    '<br>' + esc(DATA.disclaimer);
+}
+
+function renderToday() {
+  const box = document.getElementById('todayBody');
+  const nd = DATA.today_new_disposal || [];
+  const na = DATA.today_new_attention || [];
+  if (!nd.length && !na.length) {
+    box.innerHTML = '<div class="empty">今日無新入獄、無新列注意（或今日非交易日）</div>';
+    return;
+  }
+  let html = '';
+  nd.forEach(r => {
+    html += `<div class="rec-row"><span class="rec-date">${esc(r.stock_id)} ${esc(r.name)}</span>
+      <span class="badge disposal">${esc(r.market)} 入獄</span>
+      <div class="rec-reason">${esc(r.period_start)} ~ ${esc(r.period_end)}　${esc(r.measure||'')}</div></div>`;
+  });
+  na.forEach(r => {
+    html += `<div class="rec-row"><span class="rec-date">${esc(r.stock_id)} ${esc(r.name)}</span>
+      <span class="badge attention">${esc(r.market)} 列注意</span>
+      <div class="rec-reason">${esc((r.reason||'').slice(0,60))}</div></div>`;
+  });
+  box.innerHTML = html;
+}
+
+function renderRelease() {
+  const scroll = document.getElementById('releaseScroll');
+  const dates = Object.keys(DATA.release_schedule || {}).sort();
+  if (!dates.length) {
+    scroll.innerHTML = '<div class="empty">目前無生效中的處置股</div>';
+    return;
+  }
+  scroll.innerHTML = dates.map(d => {
+    const items = DATA.release_schedule[d];
+    return `<div class="day-col">
+      <div class="day-head">${d}（${items.length}）</div>
+      ${items.map(it => `<div class="stock-item">${esc(it.stock_id)} ${esc(it.name)}</div>`).join('')}
+    </div>`;
+  }).join('');
+}
+
+function renderGroups() {
+  const box = document.getElementById('groupBody');
+  const groups = DATA.groups || {};
+  const entries = Object.entries(groups).sort((a,b) => b[1].length - a[1].length);
+  if (!entries.length) {
+    box.innerHTML = '<div class="empty">目前沒有同產業別 2 檔以上同時處置中/列注意</div>';
+    return;
+  }
+  box.innerHTML = entries.map(([g, members]) => `
+    <div class="group-row">
+      <span class="group-name">${esc(g)}</span>
+      <span class="group-count">（${members.length}檔）</span>
+      <div class="members">${members.map(m => esc(m.stock_id + ' ' + m.name)).join('、')}</div>
+    </div>`).join('');
+}
+
+function doLookup() {
+  const q = document.getElementById('searchInput').value.trim();
+  const card = document.getElementById('lookupCard');
+  const body = document.getElementById('lookupBody');
+  if (!q) { card.classList.remove('show'); return; }
+  const recs = (DATA.all_records || []).filter(r => r.stock_id === q);
+  card.classList.add('show');
+  if (!recs.length) {
+    body.innerHTML = `<div class="stock-title">${esc(q)}</div>
+      <span class="badge clean">查無資料</span>
+      <div class="empty">本工具累積資料中查無此代號的處置/注意紀錄，
+      可能代表目前乾淨，也可能代表代號不存在或資料尚未涵蓋，請自行核對。</div>`;
+    return;
+  }
+  const label = recs[0].label || q;
+  const disposals = recs.filter(r => r.type === 'disposal').sort((a,b) => (b.period_start||'').localeCompare(a.period_start||''));
+  const attentions = recs.filter(r => r.type === 'attention').sort((a,b) => (b.announce_date||'').localeCompare(a.announce_date||''));
+  const ctx = (DATA.price_context || {})[q];
+  let html = `<div class="stock-title">${esc(label)}
+    <span class="badge disposal">處置 ${disposals.length} 次</span>
+    <span class="badge attention">注意 ${attentions.length} 次</span></div>`;
+  if (ctx) {
+    html += `<div class="chart-wrap">
+      <canvas id="priceChartCanvas"></canvas>
+      <div class="chart-legend">
+        <span><span class="dot" style="background:#e5484d55"></span>處置期間</span>
+        <span><span class="dot" style="background:#5b3fb0"></span>收盤價</span>
+      </div>
+      <div class="chart-note">最近一次處置區間 ${esc(ctx.period_start)} ~ ${esc(ctx.period_end)} 前後價格走勢，
+        僅供研究參考，非投資建議；報酬未扣手續費/證交稅。</div>
+    </div>`;
+  }
+  disposals.forEach(r => {
+    html += `<div class="rec-row"><span class="rec-date">${esc(r.period_start)} ~ ${esc(r.period_end)}</span>
+      　${esc(r.measure||'')}　[${esc(r.market)}]
+      <div class="rec-reason">${esc((r.reason||'').slice(0,50))}</div></div>`;
+  });
+  attentions.forEach(r => {
+    html += `<div class="rec-row"><span class="rec-date">${esc(r.announce_date)}</span>
+      　[${esc(r.market)}]
+      <div class="rec-reason">${esc((r.reason||'').slice(0,60))}</div></div>`;
+  });
+  body.innerHTML = html;
+  if (ctx) drawPriceChart('priceChartCanvas', ctx);
+}
+
+function drawPriceChart(canvasId, ctx) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const dpr = window.devicePixelRatio || 1;
+  const cssW = canvas.clientWidth || canvas.parentElement.clientWidth || 320;
+  const cssH = 140;
+  canvas.width = cssW * dpr;
+  canvas.height = cssH * dpr;
+  const g = canvas.getContext('2d');
+  g.scale(dpr, dpr);
+  g.clearRect(0, 0, cssW, cssH);
+
+  const series = ctx.series || [];
+  if (series.length < 2) {
+    g.fillStyle = '#7a7390';
+    g.font = '12px sans-serif';
+    g.fillText('資料點不足，無法畫圖', 8, cssH / 2);
+    return;
+  }
+  const padL = 40, padR = 8, padT = 10, padB = 18;
+  const w = cssW - padL - padR, h = cssH - padT - padB;
+  const closes = series.map(p => p.close);
+  const lo = Math.min(...closes), hi = Math.max(...closes);
+  const span = (hi - lo) || 1;
+  const x = i => padL + (i / (series.length - 1)) * w;
+  const y = v => padT + h - ((v - lo) / span) * h;
+
+  // 處置期間底色
+  series.forEach((p, i) => {
+    if (!p.in_disposal) return;
+    const x0 = x(i) - (w / (series.length - 1)) / 2;
+    const x1 = x(i) + (w / (series.length - 1)) / 2;
+    g.fillStyle = 'rgba(229, 72, 77, 0.12)';
+    g.fillRect(x0, padT, x1 - x0, h);
+  });
+
+  // 收盤價折線
+  g.beginPath();
+  series.forEach((p, i) => {
+    const px = x(i), py = y(p.close);
+    if (i === 0) g.moveTo(px, py); else g.lineTo(px, py);
+  });
+  g.strokeStyle = '#5b3fb0';
+  g.lineWidth = 1.6;
+  g.stroke();
+
+  // 起訖點標記
+  g.fillStyle = '#5b3fb0';
+  [0, series.length - 1].forEach(i => {
+    g.beginPath();
+    g.arc(x(i), y(series[i].close), 2.4, 0, Math.PI * 2);
+    g.fill();
+  });
+
+  // Y 軸刻度（高低價）
+  g.fillStyle = '#7a7390';
+  g.font = '10px sans-serif';
+  g.textAlign = 'right';
+  g.fillText(hi.toFixed(1), padL - 4, padT + 8);
+  g.fillText(lo.toFixed(1), padL - 4, padT + h);
+
+  // X 軸首末日期
+  g.textAlign = 'left';
+  g.fillText(series[0].date.slice(5), padL, cssH - 4);
+  g.textAlign = 'right';
+  g.fillText(series[series.length - 1].date.slice(5), cssW - padR, cssH - 4);
+}
+
+document.getElementById('searchBtn').addEventListener('click', doLookup);
+document.getElementById('searchInput').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doLookup();
+});
+
+loadData().catch(err => {
+  document.getElementById('footerNote').textContent = '資料載入失敗：' + err;
+});
+</script>
+
+</body>
+</html>
