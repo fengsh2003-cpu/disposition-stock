@@ -1,0 +1,39 @@
+name: Refresh disposal data
+
+on:
+  schedule:
+    # 08:30 and 16:30 Taipei time (UTC+8), weekdays only.
+    # 08:30 Taipei catches overnight TWSE/TPEx announcements before market
+    # open; 16:30 Taipei runs after the day's closing data has settled.
+    - cron: "30 0 * * 1-5"
+    - cron: "30 8 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No pip install needed -- scripts/refresh.py is stdlib-only by design.
+      - name: Run refresh script
+        run: python scripts/refresh.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add disposal_export.json data/disposal_history.json data/*.csv
+          if git diff --cached --quiet; then
+            echo "No changes, skipping commit"
+          else
+            git commit -m "chore: refresh disposal data ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi
