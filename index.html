@@ -201,6 +201,33 @@
     color: var(--text-dim);
     margin-top: 4px;
   }
+  .inst-row {
+    background: var(--purple-light);
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin-top: 8px;
+    font-size: 0.82rem;
+  }
+  .inst-label {
+    color: var(--text-dim);
+    margin-right: 6px;
+  }
+  .inst-value {
+    font-weight: 700;
+  }
+  .inst-value.buy { color: var(--red); }
+  .inst-value.sell { color: var(--green); }
+  .inst-streak {
+    margin-left: 8px;
+    font-size: 0.75rem;
+    color: var(--purple-dark);
+  }
+  .inst-note {
+    font-size: 0.66rem;
+    color: var(--text-dim);
+    margin-top: 3px;
+    line-height: 1.4;
+  }
 </style>
 </head>
 <body>
@@ -334,9 +361,20 @@ function doLookup() {
   const disposals = recs.filter(r => r.type === 'disposal').sort((a,b) => (b.period_start||'').localeCompare(a.period_start||''));
   const attentions = recs.filter(r => r.type === 'attention').sort((a,b) => (b.announce_date||'').localeCompare(a.announce_date||''));
   const ctx = (DATA.price_context || {})[q];
+  const inst = (DATA.institutional_context || {})[q];
   let html = `<div class="stock-title">${esc(label)}
     <span class="badge disposal">處置 ${disposals.length} 次</span>
     <span class="badge attention">注意 ${attentions.length} 次</span></div>`;
+  if (inst) {
+    const sign = inst.net5_lots > 0 ? '+' : '';
+    const dir = inst.net5_lots > 0 ? 'buy' : (inst.net5_lots < 0 ? 'sell' : '');
+    html += `<div class="inst-row">
+      <span class="inst-label">三大法人近5日</span>
+      <span class="inst-value ${dir}">${sign}${inst.net5_lots.toLocaleString()} 張</span>
+      ${inst.streak > 0 ? `<span class="inst-streak">連續買超 ${inst.streak} 天</span>` : ''}
+      <div class="inst-note">外資+投信+自營合計，非券商分點「主力」買賣超（後者無公開資料源，兩者不可混淆），截至 ${esc(inst.asof)}</div>
+    </div>`;
+  }
   if (ctx) {
     html += `<div class="chart-wrap">
       <canvas id="priceChartCanvas"></canvas>

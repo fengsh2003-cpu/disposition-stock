@@ -111,6 +111,45 @@ def fetch(stock_id, start_date, end_date, retries=3):
     return finmind_request("TaiwanStockPrice", stock_id, start_date, end_date, retries)
 
 
+# 三大法人（外資含自營+投信+自營含避險），定義對齊主 repo stock_cache.py
+FOREIGN_NAMES = {"Foreign_Investor", "Foreign_Dealer_Self"}
+DEALER_NAMES = {"Dealer_self", "Dealer_Hedging"}
+
+
+def get_institutional(stock_id, want_days=5, lookback_days=14):
+    """近 want_days 個交易日三大法人合計買賣超（股）+ 連續買超天數。
+    trimmed port of stock_cache.py's get_institutional()，無本地磁碟快取
+    （CI 每次都是全新環境，快取意義不大，直接打一次 FinMind）。"""
+    start = (date.today() - timedelta(days=lookback_days + want_days * 3)).isoformat()
+    rows = finmind_request("TaiwanStockInstitutionalInvestorsBuySell", stock_id, start)
+    by_date = {}
+    for r in rows:
+        d = by_date.setdefault(r["date"], {"foreign": 0, "trust": 0, "dealer": 0})
+        net = r["buy"] - r["sell"]
+        if r["name"] in FOREIGN_NAMES:
+            d["foreign"] += net
+        elif r["name"] == "Investment_Trust":
+            d["trust"] += net
+        elif r["name"] in DEALER_NAMES:
+            d["dealer"] += net
+    daily = []
+    for d in sorted(by_date):
+        rec = by_date[d]
+        rec["total"] = rec["foreign"] + rec["trust"] + rec["dealer"]
+        daily.append((d, rec["total"]))
+    net5 = sum(t for _, t in daily[-want_days:]) if daily else None
+    streak = 0
+    for _, t in reversed(daily):
+        if t > 0:
+            streak += 1
+        else:
+            break
+    return {
+        "net5_shares": net5, "streak": streak,
+        "enough": len(daily) >= want_days, "asof": daily[-1][0] if daily else None,
+    }
+
+
 def update_stock(stock_id, start_date=None, end_date=None):
     end_date = end_date or date.today().isoformat()
     cached = read_cached(stock_id)
@@ -402,12 +441,26 @@ def build_export(records, today_iso):
     for r in all_records:
         r["label"] = stock_label(r["stock_id"], with_group=False)
 
+    # institutional_context：三大法人買賣超，**不是**券商分點「主力」買賣超
+    # （後者台灣無可自動化的公開資料源：bsr.twse.com.tw 每查一次要過圖形
+    # 驗證碼且條款禁止散布，見 2026-08-18 查證），這是意義相近的合法替代欄位。
     price_context = {}
+    institutional_context = {}
     active_disposal_by_id = {r["stock_id"]: r for r in active_disposal}
     for sid, r in active_disposal_by_id.items():
         ctx = disposal_price_context(sid, r["period_start"], r["period_end"])
         if "error" not in ctx:
             price_context[sid] = ctx
+        try:
+            inst = get_institutional(sid, want_days=5)
+            if inst.get("enough"):
+                institutional_context[sid] = {
+                    "net5_lots": round(inst["net5_shares"] / 1000, 1),
+                    "streak": inst["streak"],
+                    "asof": inst["asof"],
+                }
+        except Exception as exc:
+            print(f"{sid}: 三大法人資料抓取失敗 - {exc}")
         time.sleep(0.1)
 
     return {
@@ -420,10 +473,13 @@ def build_export(records, today_iso):
         "groups": {g: v for g, v in groups.items() if len(v) >= 2},
         "all_records": all_records,
         "price_context": price_context,
+        "institutional_context": institutional_context,
         "disclaimer": "本資料為公開制度資訊之機械化彙整，非即時報價，非選股建議，僅供研究參考。"
                        "不含官方注意/處置認定標準的預測（不做「明日是否會被處置」的預測）。"
                        "上櫃(TPEx)歷史僅涵蓋本工具啟用後累積的資料，非完整歷史。"
-                       "price_context 的報酬為原始價差，未扣手續費/證交稅/滑價，非投資建議。",
+                       "price_context 的報酬為原始價差，未扣手續費/證交稅/滑價，非投資建議。"
+                       "institutional_context 是三大法人（外資+投信+自營）買賣超，"
+                       "不是券商分點「主力」買賣超，兩者是不同的資料與定義，勿混淆。",
     }
 
 
