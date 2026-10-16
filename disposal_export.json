@@ -1,465 +1,44 @@
 {
-  "generated_at": "2026-10-15T13:33:56",
-  "as_of": "2026-10-15",
+  "generated_at": "2026-10-16T04:49:29",
+  "as_of": "2026-10-16",
   "source": "TWSE/TPEx 官方公開 API，非即時（依 GitHub Actions 排程執行時間為準）",
   "today_new_disposal": [
     {
       "market": "TWSE",
       "type": "disposal",
-      "stock_id": "053040",
-      "name": "可寧衛富邦5C購01",
-      "announce_date": "2026-10-14",
-      "period_start": "2026-10-15",
-      "period_end": "2026-10-21",
-      "measure": "第一次處置",
-      "reason": "連續三次"
-    }
-  ],
-  "today_new_attention": [
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "053040",
-      "name": "可寧衛富邦5C購01",
-      "announce_date": "2026-10-15",
-      "count": "6",
-      "reason": "最近六個營業日累積收盤價漲幅達57.61%﹝第一款﹞。",
-      "close": "1.73"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2059",
-      "name": "川湖",
-      "announce_date": "2026-10-15",
-      "count": "13",
-      "reason": "最近六個營業日累積收盤價跌幅達28.57%。且六個營業日起迄兩個營業日收盤價價差達2070.00 元﹝第一款﹞。",
-      "close": "9720.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2308",
-      "name": "台達電",
-      "announce_date": "2026-10-15",
-      "count": "3",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達360.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "1630.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
       "stock_id": "2424",
       "name": "隴華",
       "announce_date": "2026-10-15",
-      "count": "3",
-      "reason": "最近六個營業日累積收盤價漲幅達51.84%﹝第一款﹞。且10月15日之成交量為最近六十個營業日日平均成交量之15.85 倍﹝第三款﹞。",
-      "close": "14.20"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2478",
-      "name": "大毅",
-      "announce_date": "2026-10-15",
-      "count": "2",
-      "reason": "最近六個營業日之累積週轉率為56.28%。且10月15日之週轉率為29.69%<font color='#FF0000'>﹝第十款﹞</font>。",
-      "close": "142.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2484",
-      "name": "希華",
-      "announce_date": "2026-10-15",
-      "count": "15",
-      "reason": "10月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.11%，且10月14日當日沖銷成交量占該日總成交量比率66.05%<font color='#FF0000'>﹝第十三款﹞</font>。",
-      "close": "84.90"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2614",
-      "name": "東森",
-      "announce_date": "2026-10-15",
-      "count": "1",
-      "reason": "10月14日之最近六個營業日之借券賣出成交量占最近六個營業日總成交量比率13.19%，且10月14日借券賣出成交量較最近六十個營業日之日平均借券賣出成交量放大為7.25倍<font color='#FF0000'>﹝第十二款﹞</font>。",
-      "close": "15.05"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3055",
-      "name": "蔚華科",
-      "announce_date": "2026-10-15",
-      "count": "18",
-      "reason": "最近六個營業日累積收盤價跌幅達35.12%。且六個營業日起迄兩個營業日收盤價價差達76.00 元﹝第一款﹞。",
-      "close": "147.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3167",
-      "name": "大量",
-      "announce_date": "2026-10-15",
-      "count": "22",
-      "reason": "10月15日之本益比為67.32，且股價淨值比為20.01 。另當日週轉率為10.73%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
-      "close": "960.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3450",
-      "name": "聯鈞",
-      "announce_date": "2026-10-15",
-      "count": "25",
-      "reason": "10月15日之本益比為94.83，且股價淨值比為12.19 。另當日週轉率為 5.65%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
-      "close": "467.50"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3605",
-      "name": "宏致",
-      "announce_date": "2026-10-15",
-      "count": "12",
-      "reason": "10月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率63.40%，且10月14日當日沖銷成交量占該日總成交量比率73.25%<font color='#FF0000'>﹝第十三款﹞</font>。",
-      "close": "175.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6278",
-      "name": "台表科",
-      "announce_date": "2026-10-15",
-      "count": "2",
-      "reason": "最近六個營業日累積收盤價漲幅達27.14%。且六個營業日起迄兩個營業日收盤價價差達52.50 元﹝第一款﹞。且10月15日之成交量為最近六十個營業日日平均成交量之6.80倍﹝第三款﹞。且10月15日之週轉率為19.58%﹝第四款﹞。",
-      "close": "303.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6531",
-      "name": "愛普*",
-      "announce_date": "2026-10-15",
-      "count": "11",
-      "reason": "10月14日之最近六個營業日之借券賣出成交量占最近六個營業日總成交量比率14.61%，且10月14日借券賣出成交量較最近六十個營業日之日平均借券賣出成交量放大為5.67倍<font color='#FF0000'>﹝第十二款﹞</font>。",
-      "close": "831.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6669",
-      "name": "緯穎",
-      "announce_date": "2026-10-15",
-      "count": "5",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達335.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "1905.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6834",
-      "name": "天二科技",
-      "announce_date": "2026-10-15",
-      "count": "16",
-      "reason": "10月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率65.39%，且10月14日當日沖銷成交量占該日總成交量比率76.06%<font color='#FF0000'>﹝第十三款﹞</font>。",
-      "close": "146.50"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "7610",
-      "name": "聯友金屬-創",
-      "announce_date": "2026-10-15",
-      "count": "21",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達350.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "1455.00"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "8039",
-      "name": "台虹",
-      "announce_date": "2026-10-15",
-      "count": "20",
-      "reason": "最近六個營業日之累積週轉率為88.18%。且10月15日之週轉率為39.26%<font color='#FF0000'>﹝第十款﹞</font>。",
-      "close": "283.50"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "911608",
-      "name": "明輝-DR",
-      "announce_date": "2026-10-15",
-      "count": "24",
-      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價160.75% ﹝第八款﹞。",
-      "close": "2.80"
+      "period_start": "2026-10-16",
+      "period_end": "2026-10-22",
+      "measure": "人工管制撮合",
+      "reason": "連續三次"
     },
     {
       "market": "TPEx",
-      "type": "attention",
-      "stock_id": "1815",
-      "name": "富喬",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(自當日之前一個營業日起)之當日沖銷成交量占總成交量比率達67.72%，當日之前一個營業日當日沖銷成交量占總成交量達72.98%（第十三款)",
-      "close": "127.50"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "2221",
-      "name": "大甲",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價跌幅達36.41%(第一款)",
-      "close": "126.50"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "22211",
-      "name": "大甲一",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價跌幅達34.43%(第一款)",
-      "close": "136.80"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3081",
-      "name": "聯亞",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)起迄兩個營業日之最後成交價價差達新臺幣500元(第十一款)",
-      "close": "2640.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3230",
-      "name": "錦明",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價跌幅達40.79%(第一款)",
-      "close": "26.30"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3265",
-      "name": "台星科",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達36.15%(第一款)",
-      "close": "278.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3287",
-      "name": "廣寰科",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達40.84%(第一款)當日之成交量較最近六十個營業日日平均成交量放大13.75倍(第三款)當日週轉率達23.82%(第四款)",
-      "close": "58.70"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3455",
-      "name": "由田",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "當日本益比為75.35、股價淨值比為6.71且為其所屬產業類別股價淨值比之2.86倍、當日週轉率達6.44%(第六款)",
-      "close": "269.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "3597",
-      "name": "映興",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達39.09%(第一款)當日之成交量較最近六十個營業日日平均成交量放大6.57倍(第三款)",
-      "close": "48.10"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "4924",
-      "name": "欣厚-KY",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達35.98%(第一款)最近三十個營業日(含當日)起迄兩個營業日之最後成交價漲幅達101.7%(第二款)",
-      "close": "20.15"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "4979",
-      "name": "華星光",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "當日本益比為88.71、股價淨值比為17.38且為其所屬產業類別股價淨值比之2.45倍、當日週轉率達6.45%(第六款)",
-      "close": "542.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "5340",
-      "name": "建榮",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(自當日之前一個營業日起)之當日沖銷成交量占總成交量比率達62.55%，當日之前一個營業日當日沖銷成交量占總成交量達71.61%（第十三款)",
-      "close": "90.70"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "6199",
-      "name": "天品",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(自當日之前一個營業日起)之當日沖銷成交量占總成交量比率達63.73%，當日之前一個營業日當日沖銷成交量占總成交量達68.87%（第十三款)",
-      "close": "142.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "6217",
-      "name": "中探針",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "當日本益比為N/A、股價淨值比為7.59且為其所屬產業類別股價淨值比之1.9倍、當日週轉率達36%、元大證券公司當日買進該有價證券之成交金額達22.32億元，且占當日該有價證券之總成交金額25.09%、單一投資人當日賣出該有價證券之成交金額達14.2億元，且占當日該有價證券之總成交金額15.96%(第六款)",
-      "close": "195.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "6716",
-      "name": "應廣",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價跌幅達40.19%(第一款)當日週轉率達5.32%(第四款)",
-      "close": "95.40"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "712066",
-      "name": "雙鴻元大63購06",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達30.02%(第一款)",
-      "close": "5.65"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "7856",
-      "name": "漢測",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)起迄兩個營業日之最後成交價價差達新臺幣1080元(第十一款)",
-      "close": "3300.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
-      "stock_id": "80426",
-      "name": "金山電六",
-      "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "最近六個營業日(含當日)累積之最後成交價漲幅達30.11%(第一款)",
-      "close": "262.00"
-    },
-    {
-      "market": "TPEx",
-      "type": "attention",
+      "type": "disposal",
       "stock_id": "8111",
       "name": "立碁",
       "announce_date": "2026-10-15",
-      "count": null,
-      "reason": "當日本益比為71.93、股價淨值比為6.47且為其所屬產業類別股價淨值比之2.76倍、當日週轉率達6.94%(第六款)",
-      "close": "82.00"
+      "period_start": "2026-10-16",
+      "period_end": "2026-10-22",
+      "measure": "",
+      "reason": "最近10個營業日內有6個營業日"
+    },
+    {
+      "market": "TPEx",
+      "type": "disposal",
+      "stock_id": "81114",
+      "name": "立碁四",
+      "announce_date": "2026-10-15",
+      "period_start": "2026-10-16",
+      "period_end": "2026-10-22",
+      "measure": "",
+      "reason": "轉(交)換公司債之標的證券經本中心或臺灣證券交易所發布處置"
     }
   ],
+  "today_new_attention": [],
   "release_schedule": {
-    "2026-10-15": [
-      {
-        "stock_id": "1709",
-        "name": "和益",
-        "market": "TWSE",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "2466",
-        "name": "冠西電",
-        "market": "TWSE",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "3701",
-        "name": "大眾控",
-        "market": "TWSE",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "4174",
-        "name": "浩鼎",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "4760",
-        "name": "勤凱",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "47602",
-        "name": "勤凱二",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "5205",
-        "name": "中茂",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "6957",
-        "name": "裕慶-KY",
-        "market": "TWSE",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "69571",
-        "name": "裕慶一KY",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      },
-      {
-        "stock_id": "8358",
-        "name": "金居",
-        "market": "TPEx",
-        "period_start": "2026-10-08",
-        "period_end": "2026-10-15"
-      }
-    ],
     "2026-10-16": [
       {
         "stock_id": "5475",
@@ -596,6 +175,13 @@
     ],
     "2026-10-22": [
       {
+        "stock_id": "2424",
+        "name": "隴華",
+        "market": "TWSE",
+        "period_start": "2026-10-16",
+        "period_end": "2026-10-22"
+      },
+      {
         "stock_id": "8111",
         "name": "立碁",
         "market": "TPEx",
@@ -612,54 +198,180 @@
     ]
   },
   "groups": {
+    "電腦及週邊設備業": [
+      {
+        "stock_id": "3287",
+        "name": "廣寰科"
+      },
+      {
+        "stock_id": "6117",
+        "name": "迎廣"
+      },
+      {
+        "stock_id": "6669",
+        "name": "緯穎"
+      },
+      {
+        "stock_id": "2305",
+        "name": "全友"
+      },
+      {
+        "stock_id": "4924",
+        "name": "欣厚-KY"
+      }
+    ],
+    "通信網路業": [
+      {
+        "stock_id": "6152",
+        "name": "百一"
+      },
+      {
+        "stock_id": "2424",
+        "name": "隴華"
+      },
+      {
+        "stock_id": "2455",
+        "name": "全新"
+      },
+      {
+        "stock_id": "3491",
+        "name": "昇達科"
+      },
+      {
+        "stock_id": "3081",
+        "name": "聯亞"
+      },
+      {
+        "stock_id": "4979",
+        "name": "華星光"
+      },
+      {
+        "stock_id": "4903",
+        "name": "聯光通"
+      }
+    ],
+    "未知": [
+      {
+        "stock_id": "047676",
+        "name": "聯茂群益5C購01"
+      },
+      {
+        "stock_id": "712066",
+        "name": "雙鴻元大63購06"
+      },
+      {
+        "stock_id": "80426",
+        "name": "金山電六"
+      },
+      {
+        "stock_id": "086329",
+        "name": "全友台新63購01"
+      },
+      {
+        "stock_id": "059664",
+        "name": "緯穎中信63購01"
+      },
+      {
+        "stock_id": "037060",
+        "name": "鈺邦統一64購01"
+      },
+      {
+        "stock_id": "702639",
+        "name": "IET中信5C購01"
+      },
+      {
+        "stock_id": "071804",
+        "name": "達發統一66購01"
+      },
+      {
+        "stock_id": "911608",
+        "name": "明輝-DR"
+      },
+      {
+        "stock_id": "068352",
+        "name": "日電貿群益61購01"
+      },
+      {
+        "stock_id": "81114",
+        "name": "立碁四"
+      },
+      {
+        "stock_id": "80212",
+        "name": "尖點二"
+      },
+      {
+        "stock_id": "22211",
+        "name": "大甲一"
+      },
+      {
+        "stock_id": "7772",
+        "name": "耀穎"
+      },
+      {
+        "stock_id": "9103",
+        "name": "美德醫療-DR"
+      },
+      {
+        "stock_id": "040520",
+        "name": "力積電中信5A購01"
+      },
+      {
+        "stock_id": "7856",
+        "name": "漢測"
+      },
+      {
+        "stock_id": "707746",
+        "name": "萬泰科凱基5A購02"
+      },
+      {
+        "stock_id": "053040",
+        "name": "可寧衛富邦5C購01"
+      }
+    ],
     "電子零組件業": [
       {
-        "stock_id": "2484",
-        "name": "希華"
-      },
-      {
-        "stock_id": "2059",
-        "name": "川湖"
-      },
-      {
-        "stock_id": "6217",
-        "name": "中探針"
-      },
-      {
-        "stock_id": "5228",
-        "name": "鈺鎧"
-      },
-      {
-        "stock_id": "8042",
-        "name": "金山電"
+        "stock_id": "1815",
+        "name": "富喬"
       },
       {
         "stock_id": "2492",
         "name": "華新科"
       },
       {
-        "stock_id": "8039",
-        "name": "台虹"
+        "stock_id": "6217",
+        "name": "中探針"
       },
       {
-        "stock_id": "6672",
-        "name": "騰輝電子-KY"
+        "stock_id": "2484",
+        "name": "希華"
+      },
+      {
+        "stock_id": "6834",
+        "name": "天二科技"
+      },
+      {
+        "stock_id": "5228",
+        "name": "鈺鎧"
+      },
+      {
+        "stock_id": "2308",
+        "name": "台達電"
+      },
+      {
+        "stock_id": "2059",
+        "name": "川湖"
       },
       {
         "stock_id": "2478",
         "name": "大毅"
       },
       {
-        "stock_id": "5340",
-        "name": "建榮"
-      },
-      {
-        "stock_id": "1815",
-        "name": "富喬"
-      },
-      {
         "stock_id": "3605",
         "name": "宏致"
+      },
+      {
+        "stock_id": "5340",
+        "name": "建榮"
       },
       {
         "stock_id": "3597",
@@ -670,28 +382,148 @@
         "name": "聯茂"
       },
       {
-        "stock_id": "4989",
-        "name": "榮科"
+        "stock_id": "6672",
+        "name": "騰輝電子-KY"
       },
       {
-        "stock_id": "6449",
-        "name": "鈺邦"
-      },
-      {
-        "stock_id": "2308",
-        "name": "台達電"
+        "stock_id": "8042",
+        "name": "金山電"
       },
       {
         "stock_id": "5475",
         "name": "德宏"
       },
       {
-        "stock_id": "6834",
-        "name": "天二科技"
+        "stock_id": "8039",
+        "name": "台虹"
+      }
+    ],
+    "半導體業": [
+      {
+        "stock_id": "3450",
+        "name": "聯鈞"
       },
       {
-        "stock_id": "8358",
-        "name": "金居"
+        "stock_id": "3016",
+        "name": "嘉晶"
+      },
+      {
+        "stock_id": "3265",
+        "name": "台星科"
+      },
+      {
+        "stock_id": "6716",
+        "name": "應廣"
+      },
+      {
+        "stock_id": "6531",
+        "name": "愛普*"
+      },
+      {
+        "stock_id": "3374",
+        "name": "精材"
+      },
+      {
+        "stock_id": "6708",
+        "name": "天擎"
+      },
+      {
+        "stock_id": "2340",
+        "name": "台亞"
+      },
+      {
+        "stock_id": "8054",
+        "name": "安國"
+      }
+    ],
+    "資訊服務業": [
+      {
+        "stock_id": "2468",
+        "name": "華經"
+      },
+      {
+        "stock_id": "6148",
+        "name": "驊宏資"
+      }
+    ],
+    "光電業": [
+      {
+        "stock_id": "6225",
+        "name": "天瀚"
+      },
+      {
+        "stock_id": "3406",
+        "name": "玉晶光"
+      },
+      {
+        "stock_id": "3441",
+        "name": "聯一光"
+      },
+      {
+        "stock_id": "2466",
+        "name": "冠西電"
+      },
+      {
+        "stock_id": "6209",
+        "name": "今國光"
+      },
+      {
+        "stock_id": "3362",
+        "name": "先進光"
+      },
+      {
+        "stock_id": "2426",
+        "name": "鼎元"
+      },
+      {
+        "stock_id": "5230",
+        "name": "雷笛克光學"
+      },
+      {
+        "stock_id": "8111",
+        "name": "立碁"
+      },
+      {
+        "stock_id": "6278",
+        "name": "台表科"
+      },
+      {
+        "stock_id": "3230",
+        "name": "錦明"
+      },
+      {
+        "stock_id": "6226",
+        "name": "光鼎"
+      },
+      {
+        "stock_id": "6668",
+        "name": "中揚光"
+      },
+      {
+        "stock_id": "3455",
+        "name": "由田"
+      }
+    ],
+    "其他業": [
+      {
+        "stock_id": "6199",
+        "name": "天品"
+      },
+      {
+        "stock_id": "1516",
+        "name": "川飛"
+      },
+      {
+        "stock_id": "2614",
+        "name": "東森"
+      },
+      {
+        "stock_id": "6504",
+        "name": "南六"
+      },
+      {
+        "stock_id": "2221",
+        "name": "大甲"
       }
     ],
     "電機機械": [
@@ -704,227 +536,11 @@
         "name": "大量"
       }
     ],
-    "其他業": [
-      {
-        "stock_id": "1516",
-        "name": "川飛"
-      },
-      {
-        "stock_id": "6199",
-        "name": "天品"
-      },
-      {
-        "stock_id": "6957",
-        "name": "裕慶-KY"
-      },
-      {
-        "stock_id": "6504",
-        "name": "南六"
-      },
-      {
-        "stock_id": "2221",
-        "name": "大甲"
-      },
-      {
-        "stock_id": "2614",
-        "name": "東森"
-      }
-    ],
-    "其他電子業": [
-      {
-        "stock_id": "4760",
-        "name": "勤凱"
-      },
-      {
-        "stock_id": "8021",
-        "name": "尖點"
-      }
-    ],
-    "未知": [
-      {
-        "stock_id": "80426",
-        "name": "金山電六"
-      },
-      {
-        "stock_id": "9110",
-        "name": "越南控-DR"
-      },
-      {
-        "stock_id": "9103",
-        "name": "美德醫療-DR"
-      },
-      {
-        "stock_id": "911608",
-        "name": "明輝-DR"
-      },
-      {
-        "stock_id": "037060",
-        "name": "鈺邦統一64購01"
-      },
-      {
-        "stock_id": "7856",
-        "name": "漢測"
-      },
-      {
-        "stock_id": "071804",
-        "name": "達發統一66購01"
-      },
-      {
-        "stock_id": "47602",
-        "name": "勤凱二"
-      },
-      {
-        "stock_id": "059664",
-        "name": "緯穎中信63購01"
-      },
-      {
-        "stock_id": "053040",
-        "name": "可寧衛富邦5C購01"
-      },
-      {
-        "stock_id": "69571",
-        "name": "裕慶一KY"
-      },
-      {
-        "stock_id": "707746",
-        "name": "萬泰科凱基5A購02"
-      },
-      {
-        "stock_id": "80212",
-        "name": "尖點二"
-      },
-      {
-        "stock_id": "22211",
-        "name": "大甲一"
-      },
-      {
-        "stock_id": "712066",
-        "name": "雙鴻元大63購06"
-      },
-      {
-        "stock_id": "047676",
-        "name": "聯茂群益5C購01"
-      },
-      {
-        "stock_id": "7772",
-        "name": "耀穎"
-      },
-      {
-        "stock_id": "052775",
-        "name": "永光統一61購01"
-      },
-      {
-        "stock_id": "702639",
-        "name": "IET中信5C購01"
-      },
-      {
-        "stock_id": "068352",
-        "name": "日電貿群益61購01"
-      },
-      {
-        "stock_id": "086329",
-        "name": "全友台新63購01"
-      },
-      {
-        "stock_id": "040520",
-        "name": "力積電中信5A購01"
-      }
-    ],
-    "光電業": [
-      {
-        "stock_id": "3441",
-        "name": "聯一光"
-      },
-      {
-        "stock_id": "2426",
-        "name": "鼎元"
-      },
-      {
-        "stock_id": "3362",
-        "name": "先進光"
-      },
-      {
-        "stock_id": "6278",
-        "name": "台表科"
-      },
-      {
-        "stock_id": "3406",
-        "name": "玉晶光"
-      },
-      {
-        "stock_id": "6225",
-        "name": "天瀚"
-      },
-      {
-        "stock_id": "3230",
-        "name": "錦明"
-      },
-      {
-        "stock_id": "8111",
-        "name": "立碁"
-      },
-      {
-        "stock_id": "6668",
-        "name": "中揚光"
-      },
-      {
-        "stock_id": "6209",
-        "name": "今國光"
-      },
-      {
-        "stock_id": "5230",
-        "name": "雷笛克光學"
-      },
-      {
-        "stock_id": "2466",
-        "name": "冠西電"
-      },
-      {
-        "stock_id": "6226",
-        "name": "光鼎"
-      },
-      {
-        "stock_id": "3455",
-        "name": "由田"
-      }
-    ],
-    "電腦及週邊設備業": [
-      {
-        "stock_id": "3287",
-        "name": "廣寰科"
-      },
-      {
-        "stock_id": "6669",
-        "name": "緯穎"
-      },
-      {
-        "stock_id": "2305",
-        "name": "全友"
-      },
-      {
-        "stock_id": "6117",
-        "name": "迎廣"
-      },
-      {
-        "stock_id": "4924",
-        "name": "欣厚-KY"
-      },
-      {
-        "stock_id": "3701",
-        "name": "大眾控"
-      }
-    ],
-    "綠能環保": [
-      {
-        "stock_id": "7610",
-        "name": "聯友金屬-創"
-      },
-      {
-        "stock_id": "5205",
-        "name": "中茂"
-      }
-    ],
     "塑膠工業": [
+      {
+        "stock_id": "4303",
+        "name": "信立"
+      },
       {
         "stock_id": "1325",
         "name": "恆大"
@@ -932,88 +548,16 @@
       {
         "stock_id": "1312",
         "name": "國喬"
-      },
-      {
-        "stock_id": "4303",
-        "name": "信立"
       }
     ],
-    "通信網路業": [
+    "綠能環保": [
       {
-        "stock_id": "2424",
-        "name": "隴華"
+        "stock_id": "5205",
+        "name": "中茂"
       },
       {
-        "stock_id": "2455",
-        "name": "全新"
-      },
-      {
-        "stock_id": "6152",
-        "name": "百一"
-      },
-      {
-        "stock_id": "4979",
-        "name": "華星光"
-      },
-      {
-        "stock_id": "3081",
-        "name": "聯亞"
-      },
-      {
-        "stock_id": "4903",
-        "name": "聯光通"
-      },
-      {
-        "stock_id": "3491",
-        "name": "昇達科"
-      }
-    ],
-    "半導體業": [
-      {
-        "stock_id": "3265",
-        "name": "台星科"
-      },
-      {
-        "stock_id": "3374",
-        "name": "精材"
-      },
-      {
-        "stock_id": "6716",
-        "name": "應廣"
-      },
-      {
-        "stock_id": "8054",
-        "name": "安國"
-      },
-      {
-        "stock_id": "3450",
-        "name": "聯鈞"
-      },
-      {
-        "stock_id": "6708",
-        "name": "天擎"
-      },
-      {
-        "stock_id": "6531",
-        "name": "愛普*"
-      },
-      {
-        "stock_id": "2340",
-        "name": "台亞"
-      },
-      {
-        "stock_id": "3016",
-        "name": "嘉晶"
-      }
-    ],
-    "化學工業": [
-      {
-        "stock_id": "1709",
-        "name": "和益"
-      },
-      {
-        "stock_id": "4720",
-        "name": "德淵"
+        "stock_id": "7610",
+        "name": "聯友金屬-創"
       }
     ],
     "電子通路業": [
@@ -1024,16 +568,6 @@
       {
         "stock_id": "3055",
         "name": "蔚華科"
-      }
-    ],
-    "資訊服務業": [
-      {
-        "stock_id": "6148",
-        "name": "驊宏資"
-      },
-      {
-        "stock_id": "2468",
-        "name": "華經"
       }
     ]
   },
@@ -1221,18 +755,6 @@
     {
       "market": "TWSE",
       "type": "disposal",
-      "stock_id": "1447",
-      "name": "力鵬",
-      "announce_date": "2026-07-03",
-      "period_start": "2026-07-06",
-      "period_end": "2026-07-17",
-      "measure": "第一次處置",
-      "reason": "連續三次",
-      "label": "1447 力鵬"
-    },
-    {
-      "market": "TWSE",
-      "type": "disposal",
       "stock_id": "1515",
       "name": "力山",
       "announce_date": "2026-07-30",
@@ -1253,18 +775,6 @@
       "measure": "第一次處置",
       "reason": "連續三次",
       "label": "1515 力山"
-    },
-    {
-      "market": "TWSE",
-      "type": "disposal",
-      "stock_id": "1617",
-      "name": "榮星",
-      "announce_date": "2026-07-03",
-      "period_start": "2026-07-06",
-      "period_end": "2026-07-17",
-      "measure": "第一次處置",
-      "reason": "連續三次",
-      "label": "1617 榮星"
     },
     {
       "market": "TWSE",
@@ -1337,6 +847,18 @@
       "measure": "第一次處置",
       "reason": "連續五次及當日沖銷標準",
       "label": "2305 全友"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
+      "stock_id": "2424",
+      "name": "隴華",
+      "announce_date": "2026-10-15",
+      "period_start": "2026-10-16",
+      "period_end": "2026-10-22",
+      "measure": "人工管制撮合",
+      "reason": "連續三次",
+      "label": "2424 隴華"
     },
     {
       "market": "TWSE",
@@ -1659,18 +1181,6 @@
       "period_start": "2026-07-09",
       "period_end": "2026-07-22",
       "measure": "第二次處置",
-      "reason": "連續三次",
-      "label": "3055 蔚華科"
-    },
-    {
-      "market": "TWSE",
-      "type": "disposal",
-      "stock_id": "3055",
-      "name": "蔚華科",
-      "announce_date": "2026-07-03",
-      "period_start": "2026-07-06",
-      "period_end": "2026-07-17",
-      "measure": "第一次處置",
       "reason": "連續三次",
       "label": "3055 蔚華科"
     },
@@ -2229,18 +1739,6 @@
     {
       "market": "TWSE",
       "type": "disposal",
-      "stock_id": "7795",
-      "name": "長廣",
-      "announce_date": "2026-07-03",
-      "period_start": "2026-07-06",
-      "period_end": "2026-07-17",
-      "measure": "第一次處置",
-      "reason": "連續三次",
-      "label": "7795 長廣"
-    },
-    {
-      "market": "TWSE",
-      "type": "disposal",
       "stock_id": "8021",
       "name": "尖點",
       "announce_date": "2026-10-08",
@@ -2420,18 +1918,6 @@
     },
     {
       "market": "TWSE",
-      "type": "disposal",
-      "stock_id": "911608",
-      "name": "明輝-DR",
-      "announce_date": "2026-07-03",
-      "period_start": "2026-07-06",
-      "period_end": "2026-07-17",
-      "measure": "第一次處置",
-      "reason": "最近三十個營業日已有十二次",
-      "label": "911608 明輝-DR"
-    },
-    {
-      "market": "TWSE",
       "type": "attention",
       "stock_id": "030092",
       "name": "訊芯統一59購01",
@@ -2572,17 +2058,6 @@
       "reason": "最近六個營業日累積收盤價跌幅達33.87%﹝第一款﹞。",
       "close": "10.70",
       "label": "036847 國巨統一58購03"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "036852",
-      "name": "華邦電統一5C購01",
-      "announce_date": "2026-07-17",
-      "count": "1",
-      "reason": "最近六個營業日累積收盤價跌幅達38.03%﹝第一款﹞。",
-      "close": "11.60",
-      "label": "036852 華邦電統一5C購01"
     },
     {
       "market": "TWSE",
@@ -2792,17 +2267,6 @@
       "reason": "最近六個營業日累積收盤價跌幅達40.15%﹝第一款﹞。",
       "close": "2.08",
       "label": "039038 富鼎統一6A購01"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "039438",
-      "name": "東元統一6A購02",
-      "announce_date": "2026-07-17",
-      "count": "1",
-      "reason": "最近六個營業日累積收盤價跌幅達33.95%﹝第一款﹞。",
-      "close": "0.12",
-      "label": "039438 東元統一6A購02"
     },
     {
       "market": "TWSE",
@@ -4930,17 +4394,6 @@
     {
       "market": "TWSE",
       "type": "attention",
-      "stock_id": "1517",
-      "name": "利奇",
-      "announce_date": "2026-07-17",
-      "count": "1",
-      "reason": "最近六個營業日平均成交量較最近六十個營業日之日平均成交量放大為5.06倍。當日之成交量較最近六十個營業日之平均成交量放大為 21.01倍<font color='#FF0000'>﹝第九款﹞</font>。",
-      "close": "12.15",
-      "label": "1517 利奇"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
       "stock_id": "1526",
       "name": "日馳",
       "announce_date": "2026-07-20",
@@ -5868,7 +5321,7 @@
       "stock_id": "2327",
       "name": "國巨*",
       "announce_date": "2026-07-30",
-      "count": "3",
+      "count": "2",
       "reason": "最近六個營業日累積收盤價跌幅達41.20%。且六個營業日起迄兩個營業日收盤價價差達239.50元﹝第一款﹞。",
       "close": "456.50",
       "label": "2327 國巨*"
@@ -5879,20 +5332,9 @@
       "stock_id": "2327",
       "name": "國巨*",
       "announce_date": "2026-07-29",
-      "count": "3",
+      "count": "2",
       "reason": "六個營業日起迄兩個營業日收盤價價差達196.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "507.00",
-      "label": "2327 國巨*"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2327",
-      "name": "國巨*",
-      "announce_date": "2026-07-17",
-      "count": "3",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達201.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "699.00",
       "label": "2327 國巨*"
     },
     {
@@ -6561,7 +6003,7 @@
       "stock_id": "2434",
       "name": "統懋",
       "announce_date": "2026-09-04",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價漲幅達28.78%。且09月04日之週轉率為18.66%﹝第四款﹞。",
       "close": "67.30",
       "label": "2434 統懋"
@@ -6572,7 +6014,7 @@
       "stock_id": "2434",
       "name": "統懋",
       "announce_date": "2026-08-31",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價漲幅達25.70%。且08月31日之週轉率為21.58%﹝第四款﹞。",
       "close": "62.00",
       "label": "2434 統懋"
@@ -6583,20 +6025,9 @@
       "stock_id": "2434",
       "name": "統懋",
       "announce_date": "2026-08-03",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價跌幅達30.90%。且08月03日之週轉率為19.88%﹝第四款﹞。",
       "close": "49.75",
-      "label": "2434 統懋"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2434",
-      "name": "統懋",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "最近六個營業日累積收盤價漲幅達39.83%﹝第一款﹞。",
-      "close": "81.80",
       "label": "2434 統懋"
     },
     {
@@ -6616,7 +6047,7 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-09-07",
-      "count": "7",
+      "count": "6",
       "reason": "六個營業日起迄兩個營業日收盤價價差達835.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "4760.00",
       "label": "2454 聯發科"
@@ -6627,7 +6058,7 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-08-13",
-      "count": "7",
+      "count": "6",
       "reason": "最近九十個營業日起迄兩個營業日之收盤價漲幅達189.08% ﹝第二款﹞。",
       "close": "4225.00",
       "label": "2454 聯發科"
@@ -6638,7 +6069,7 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-08-11",
-      "count": "7",
+      "count": "6",
       "reason": "最近九十個營業日起迄兩個營業日之收盤價漲幅達176.07% ﹝第二款﹞。",
       "close": "4020.00",
       "label": "2454 聯發科"
@@ -6649,7 +6080,7 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-08-10",
-      "count": "7",
+      "count": "6",
       "reason": "最近九十個營業日起迄兩個營業日之收盤價漲幅達167.41% ﹝第二款﹞。",
       "close": "3960.00",
       "label": "2454 聯發科"
@@ -6660,7 +6091,7 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-08-05",
-      "count": "7",
+      "count": "6",
       "reason": "六個營業日起迄兩個營業日收盤價價差達850.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "4000.00",
       "label": "2454 聯發科"
@@ -6671,20 +6102,9 @@
       "stock_id": "2454",
       "name": "聯發科",
       "announce_date": "2026-07-28",
-      "count": "7",
+      "count": "6",
       "reason": "六個營業日起迄兩個營業日收盤價價差達355.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "3315.00",
-      "label": "2454 聯發科"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2454",
-      "name": "聯發科",
-      "announce_date": "2026-07-17",
-      "count": "7",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達555.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "3370.00",
       "label": "2454 聯發科"
     },
     {
@@ -7265,7 +6685,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-10-05",
-      "count": "9",
+      "count": "8",
       "reason": "最近六個營業日之累積週轉率為50.52%。且10月05日之週轉率為14.65%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "180.50",
       "label": "2481 強茂"
@@ -7276,7 +6696,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-09-23",
-      "count": "9",
+      "count": "8",
       "reason": "最近六個營業日之累積週轉率為68.18%。且09月23日之週轉率為10.33%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "173.00",
       "label": "2481 強茂"
@@ -7287,7 +6707,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-09-14",
-      "count": "9",
+      "count": "8",
       "reason": "最近六個營業日之累積週轉率為63.40%。且09月14日之週轉率為16.00%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "159.00",
       "label": "2481 強茂"
@@ -7298,7 +6718,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-09-11",
-      "count": "9",
+      "count": "8",
       "reason": "09月10日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.84%，且09月10日當日沖銷成交量占該日總成交量比率65.83%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "150.00",
       "label": "2481 強茂"
@@ -7309,7 +6729,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-09-03",
-      "count": "9",
+      "count": "8",
       "reason": "最近六個營業日之累積週轉率為58.92%。且09月03日之週轉率為17.40%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "156.00",
       "label": "2481 強茂"
@@ -7320,7 +6740,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-08-20",
-      "count": "9",
+      "count": "8",
       "reason": "08月19日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率61.06%，且08月19日當日沖銷成交量占該日總成交量比率70.67%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "138.50",
       "label": "2481 強茂"
@@ -7331,7 +6751,7 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-08-12",
-      "count": "9",
+      "count": "8",
       "reason": "08月11日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.63%，且08月11日當日沖銷成交量占該日總成交量比率66.03%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "139.00",
       "label": "2481 強茂"
@@ -7342,20 +6762,9 @@
       "stock_id": "2481",
       "name": "強茂",
       "announce_date": "2026-07-20",
-      "count": "9",
+      "count": "8",
       "reason": "最近六個營業日累積收盤價跌幅達40.52%。且六個營業日起迄兩個營業日收盤價價差達52.50 元﹝第一款﹞。",
       "close": "139.50",
-      "label": "2481 強茂"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2481",
-      "name": "強茂",
-      "announce_date": "2026-07-17",
-      "count": "9",
-      "reason": "最近六個營業日累積收盤價跌幅達31.90%。且六個營業日起迄兩個營業日收盤價價差達61.50 元﹝第一款﹞。",
-      "close": "151.50",
       "label": "2481 強茂"
     },
     {
@@ -7364,7 +6773,7 @@
       "stock_id": "2483",
       "name": "百容",
       "announce_date": "2026-07-21",
-      "count": "3",
+      "count": "2",
       "reason": "最近六個營業日累積收盤價跌幅達35.70%﹝第一款﹞。",
       "close": "42.15",
       "label": "2483 百容"
@@ -7375,20 +6784,9 @@
       "stock_id": "2483",
       "name": "百容",
       "announce_date": "2026-07-20",
-      "count": "3",
+      "count": "2",
       "reason": "最近六個營業日累積收盤價跌幅達46.29%﹝第一款﹞。",
       "close": "41.90",
-      "label": "2483 百容"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2483",
-      "name": "百容",
-      "announce_date": "2026-07-17",
-      "count": "3",
-      "reason": "最近六個營業日累積收盤價跌幅達36.04%﹝第一款﹞。",
-      "close": "43.50",
       "label": "2483 百容"
     },
     {
@@ -7397,7 +6795,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-10-15",
-      "count": "15",
+      "count": "14",
       "reason": "10月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.11%，且10月14日當日沖銷成交量占該日總成交量比率66.05%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "84.90",
       "label": "2484 希華"
@@ -7408,7 +6806,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-10-08",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為128.18% 。且10月08日之週轉率為25.63%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "90.60",
       "label": "2484 希華"
@@ -7419,7 +6817,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-10-05",
-      "count": "15",
+      "count": "14",
       "reason": "10月02日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率66.38%，且10月02日當日沖銷成交量占該日總成交量比率73.84%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "86.40",
       "label": "2484 希華"
@@ -7430,7 +6828,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-10-02",
-      "count": "15",
+      "count": "14",
       "reason": "10月01日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率63.25%，且10月01日當日沖銷成交量占該日總成交量比率60.08%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "86.50",
       "label": "2484 希華"
@@ -7441,7 +6839,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-09-30",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為57.26%。且09月30日之週轉率為15.02%<font color='#FF0000'>﹝第十款﹞</font>。09月29日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.62%，且09月29日當日沖銷成交量占該日總成交量比率63.70%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "78.00",
       "label": "2484 希華"
@@ -7452,7 +6850,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-21",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為53.27%。且08月21日之週轉率為17.61%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "76.50",
       "label": "2484 希華"
@@ -7463,7 +6861,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-14",
-      "count": "15",
+      "count": "14",
       "reason": "08月13日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率72.93%，且08月13日當日沖銷成交量占該日總成交量比率69.57%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "72.80",
       "label": "2484 希華"
@@ -7474,7 +6872,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-13",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為71.78%。且08月13日之週轉率為17.74%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "75.90",
       "label": "2484 希華"
@@ -7485,7 +6883,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-06",
-      "count": "15",
+      "count": "14",
       "reason": "08月05日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率72.91%，且08月05日當日沖銷成交量占該日總成交量比率74.94%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "71.20",
       "label": "2484 希華"
@@ -7496,7 +6894,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-05",
-      "count": "15",
+      "count": "14",
       "reason": "08月04日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率70.48%，且08月04日當日沖銷成交量占該日總成交量比率74.03%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "70.50",
       "label": "2484 希華"
@@ -7507,7 +6905,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-08-04",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為76.08%。且08月04日之週轉率為18.92%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "69.90",
       "label": "2484 希華"
@@ -7518,7 +6916,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-07-28",
-      "count": "15",
+      "count": "14",
       "reason": "07月27日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率78.02%，且07月27日當日沖銷成交量占該日總成交量比率86.98%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "65.80",
       "label": "2484 希華"
@@ -7529,7 +6927,7 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-07-27",
-      "count": "15",
+      "count": "14",
       "reason": "最近六個營業日之累積週轉率為96.35%。且07月27日之週轉率為31.39%<font color='#FF0000'>﹝第十款﹞</font>。07月24日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率67.42%，且07月24日當日沖銷成交量占該日總成交量比率81.48%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "73.10",
       "label": "2484 希華"
@@ -7540,20 +6938,9 @@
       "stock_id": "2484",
       "name": "希華",
       "announce_date": "2026-07-24",
-      "count": "15",
+      "count": "14",
       "reason": "07月23日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率63.60%，且07月23日當日沖銷成交量占該日總成交量比率75.48%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "71.90",
-      "label": "2484 希華"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2484",
-      "name": "希華",
-      "announce_date": "2026-07-17",
-      "count": "15",
-      "reason": "最近六個營業日之累積週轉率為125.93% 。且07月17日之週轉率為14.13%<font color='#FF0000'>﹝第十款﹞</font>。",
-      "close": "80.70",
       "label": "2484 希華"
     },
     {
@@ -7771,7 +7158,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-10-12",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價漲幅達25.04%。且六個營業日起迄兩個營業日收盤價價差達56.50 元﹝第一款﹞。",
       "close": "418.00",
       "label": "2492 華新科"
@@ -7782,7 +7169,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-10-08",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價漲幅達35.35%。且六個營業日起迄兩個營業日收盤價價差達91.00 元﹝第一款﹞。且10月08日之週轉率為13.33%﹝第四款﹞。",
       "close": "420.00",
       "label": "2492 華新科"
@@ -7793,7 +7180,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-10-07",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價漲幅達36.39%。且六個營業日起迄兩個營業日收盤價價差達128.50元﹝第一款﹞。且10月07日之週轉率為10.99%﹝第四款﹞。",
       "close": "428.00",
       "label": "2492 華新科"
@@ -7804,7 +7191,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-10-05",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日之累積週轉率為55.24%。且10月05日之週轉率為19.74%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "368.50",
       "label": "2492 華新科"
@@ -7815,7 +7202,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-09-15",
-      "count": "10",
+      "count": "9",
       "reason": "09月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.95%，且09月14日當日沖銷成交量占該日總成交量比率65.14%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "300.00",
       "label": "2492 華新科"
@@ -7826,7 +7213,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-08-12",
-      "count": "10",
+      "count": "9",
       "reason": "08月11日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.47%，且08月11日當日沖銷成交量占該日總成交量比率68.89%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "288.00",
       "label": "2492 華新科"
@@ -7837,7 +7224,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-07-30",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價跌幅達39.27%。且六個營業日起迄兩個營業日收盤價價差達101.50元﹝第一款﹞。六個營業日起迄兩個營業日收盤價價差達101.50元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "198.50",
       "label": "2492 華新科"
@@ -7848,7 +7235,7 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-07-21",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價跌幅達40.93%。且六個營業日起迄兩個營業日收盤價價差達117.00元﹝第一款﹞。",
       "close": "273.00",
       "label": "2492 華新科"
@@ -7859,20 +7246,9 @@
       "stock_id": "2492",
       "name": "華新科",
       "announce_date": "2026-07-20",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價跌幅達49.47%。且六個營業日起迄兩個營業日收盤價價差達142.00元﹝第一款﹞。",
       "close": "277.00",
-      "label": "2492 華新科"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "2492",
-      "name": "華新科",
-      "announce_date": "2026-07-17",
-      "count": "10",
-      "reason": "最近六個營業日累積收盤價跌幅達40.83%。且六個營業日起迄兩個營業日收盤價價差達158.00元﹝第一款﹞。且07月17日美商高盛證券商買進之比率為68.24%。且07月17日摩根大通證券商賣出之比率為66.38%﹝第五款﹞。六個營業日起迄兩個營業日收盤價價差達158.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "307.50",
       "label": "2492 華新科"
     },
     {
@@ -8365,7 +7741,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-10-05",
-      "count": "18",
+      "count": "17",
       "reason": "10月02日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.26%，且10月02日當日沖銷成交量占該日總成交量比率64.08%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "817.00",
       "label": "3026 禾伸堂"
@@ -8376,7 +7752,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-09-24",
-      "count": "18",
+      "count": "17",
       "reason": "09月24日之本益比為79.02，且股價淨值比為13.01 。另當日週轉率為 7.95%，暨台灣摩根證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為11.60%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "810.00",
       "label": "3026 禾伸堂"
@@ -8387,7 +7763,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-09-18",
-      "count": "18",
+      "count": "17",
       "reason": "09月17日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率66.56%，且09月17日當日沖銷成交量占該日總成交量比率66.33%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "797.00",
       "label": "3026 禾伸堂"
@@ -8398,7 +7774,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-28",
-      "count": "18",
+      "count": "17",
       "reason": "08月28日之本益比為72.39，且股價淨值比為11.91 。另當日週轉率為 9.09%，暨元大證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為30.10%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "742.00",
       "label": "3026 禾伸堂"
@@ -8409,7 +7785,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-17",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價漲幅達26.79%。且六個營業日起迄兩個營業日收盤價價差達101.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達278.63% ﹝第二款﹞。",
       "close": "689.00",
       "label": "3026 禾伸堂"
@@ -8420,7 +7796,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-13",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價漲幅達25.28%。且六個營業日起迄兩個營業日收盤價價差達98.00 元﹝第一款﹞。且08月13日之週轉率為15.04%﹝第四款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達358.42% ﹝第二款﹞。",
       "close": "691.00",
       "label": "3026 禾伸堂"
@@ -8431,7 +7807,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-12",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價漲幅達34.24%。且六個營業日起迄兩個營業日收盤價價差達138.00元﹝第一款﹞。且08月12日之週轉率為14.56%﹝第四款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達398.77% ﹝第二款﹞。",
       "close": "685.00",
       "label": "3026 禾伸堂"
@@ -8442,7 +7818,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-11",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價漲幅達36.58%。且六個營業日起迄兩個營業日收盤價價差達148.00元﹝第一款﹞。且08月11日之週轉率為13.67%﹝第四款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達359.01% ﹝第二款﹞。08月11日之本益比為63.02，且股價淨值比為10.37 。另當日週轉率為13.67%，暨美商高盛證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為11.38%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "646.00",
       "label": "3026 禾伸堂"
@@ -8453,7 +7829,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-10",
-      "count": "18",
+      "count": "17",
       "reason": "最近九十個營業日起迄兩個營業日之收盤價漲幅達331.85% ﹝第二款﹞。",
       "close": "588.00",
       "label": "3026 禾伸堂"
@@ -8464,7 +7840,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-06",
-      "count": "18",
+      "count": "17",
       "reason": "六個營業日起迄兩個營業日收盤價價差達165.50元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "593.00",
       "label": "3026 禾伸堂"
@@ -8475,7 +7851,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-08-03",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達30.99%。且六個營業日起迄兩個營業日收盤價價差達125.50元﹝第一款﹞。且08月03日元大證券商賣出之比率為42.07%﹝第五款﹞。",
       "close": "459.50",
       "label": "3026 禾伸堂"
@@ -8486,7 +7862,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-31",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達41.27%。且六個營業日起迄兩個營業日收盤價價差達190.00元﹝第一款﹞。",
       "close": "450.00",
       "label": "3026 禾伸堂"
@@ -8497,7 +7873,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-30",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達41.41%。且六個營業日起迄兩個營業日收盤價價差達269.50元﹝第一款﹞。且07月30日凱基證券商買進之比率為39.90%﹝第五款﹞。",
       "close": "427.50",
       "label": "3026 禾伸堂"
@@ -8508,7 +7884,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-29",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達34.29%。且六個營業日起迄兩個營業日收盤價價差達188.50元﹝第一款﹞。且07月29日元大證券商賣出之比率為79.61%﹝第五款﹞。",
       "close": "474.50",
       "label": "3026 禾伸堂"
@@ -8519,7 +7895,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-28",
-      "count": "18",
+      "count": "17",
       "reason": "六個營業日起迄兩個營業日收盤價價差達155.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "527.00",
       "label": "3026 禾伸堂"
@@ -8530,7 +7906,7 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-21",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達25.81%。且六個營業日起迄兩個營業日收盤價價差達133.00元﹝第一款﹞。且07月21日之週轉率為12.25%﹝第四款﹞。07月21日之本益比為87.89，且股價淨值比為11.68 。另當日週轉率為12.25%，暨凱基證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為32.86%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "682.00",
       "label": "3026 禾伸堂"
@@ -8541,20 +7917,9 @@
       "stock_id": "3026",
       "name": "禾伸堂",
       "announce_date": "2026-07-20",
-      "count": "18",
+      "count": "17",
       "reason": "最近六個營業日累積收盤價跌幅達45.58%。且六個營業日起迄兩個營業日收盤價價差達284.00元﹝第一款﹞。且07月20日凱基證券商賣出之比率為56.34%﹝第五款﹞。",
       "close": "621.00",
-      "label": "3026 禾伸堂"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3026",
-      "name": "禾伸堂",
-      "announce_date": "2026-07-17",
-      "count": "18",
-      "reason": "最近六個營業日累積收盤價跌幅達30.13%。且六個營業日起迄兩個營業日收盤價價差達315.00元﹝第一款﹞。07月17日之本益比為88.92，且股價淨值比為11.82 。另當日週轉率為 5.50%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
-      "close": "690.00",
       "label": "3026 禾伸堂"
     },
     {
@@ -8651,7 +8016,7 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-10-05",
-      "count": "7",
+      "count": "6",
       "reason": "10月02日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率61.17%，且10月02日當日沖銷成交量占該日總成交量比率64.51%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "222.00",
       "label": "3042 晶技"
@@ -8662,7 +8027,7 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-10-01",
-      "count": "7",
+      "count": "6",
       "reason": "最近六個營業日之累積週轉率為55.87%。且10月01日之週轉率為10.87%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "218.50",
       "label": "3042 晶技"
@@ -8673,7 +8038,7 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-08-24",
-      "count": "7",
+      "count": "6",
       "reason": "08月21日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率64.27%，且08月21日當日沖銷成交量占該日總成交量比率73.27%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "177.50",
       "label": "3042 晶技"
@@ -8684,7 +8049,7 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-08-21",
-      "count": "7",
+      "count": "6",
       "reason": "08月20日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.09%，且08月20日當日沖銷成交量占該日總成交量比率69.25%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "190.00",
       "label": "3042 晶技"
@@ -8695,7 +8060,7 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-08-18",
-      "count": "7",
+      "count": "6",
       "reason": "08月17日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.22%，且08月17日當日沖銷成交量占該日總成交量比率66.16%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "178.50",
       "label": "3042 晶技"
@@ -8706,20 +8071,9 @@
       "stock_id": "3042",
       "name": "晶技",
       "announce_date": "2026-08-14",
-      "count": "7",
+      "count": "6",
       "reason": "08月13日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率61.09%，且08月13日當日沖銷成交量占該日總成交量比率67.05%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "180.50",
-      "label": "3042 晶技"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3042",
-      "name": "晶技",
-      "announce_date": "2026-07-17",
-      "count": "7",
-      "reason": "07月16日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.66%，且07月16日當日沖銷成交量占該日總成交量比率66.77%<font color='#FF0000'>﹝第十三款﹞</font>。",
-      "close": "168.50",
       "label": "3042 晶技"
     },
     {
@@ -8926,7 +8280,7 @@
       "stock_id": "3090",
       "name": "日電貿",
       "announce_date": "2026-08-12",
-      "count": "5",
+      "count": "4",
       "reason": "08月11日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.30%，且08月11日當日沖銷成交量占該日總成交量比率71.11%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "170.50",
       "label": "3090 日電貿"
@@ -8937,7 +8291,7 @@
       "stock_id": "3090",
       "name": "日電貿",
       "announce_date": "2026-07-30",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價跌幅達45.29%。且六個營業日起迄兩個營業日收盤價價差達57.50 元﹝第一款﹞。且07月30日瑞銀證券商賣出之比率為25.47%﹝第五款﹞。",
       "close": "114.00",
       "label": "3090 日電貿"
@@ -8948,7 +8302,7 @@
       "stock_id": "3090",
       "name": "日電貿",
       "announce_date": "2026-07-21",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價跌幅達36.90%。且六個營業日起迄兩個營業日收盤價價差達57.00 元﹝第一款﹞。",
       "close": "175.50",
       "label": "3090 日電貿"
@@ -8959,20 +8313,9 @@
       "stock_id": "3090",
       "name": "日電貿",
       "announce_date": "2026-07-20",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價跌幅達46.84%。且六個營業日起迄兩個營業日收盤價價差達82.50 元﹝第一款﹞。",
       "close": "175.50",
-      "label": "3090 日電貿"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3090",
-      "name": "日電貿",
-      "announce_date": "2026-07-17",
-      "count": "5",
-      "reason": "最近六個營業日累積收盤價跌幅達42.68%。且六個營業日起迄兩個營業日收盤價價差達92.00 元﹝第一款﹞。",
-      "close": "194.50",
       "label": "3090 日電貿"
     },
     {
@@ -9641,7 +8984,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-09-24",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達33.59%。且六個營業日起迄兩個營業日收盤價價差達2025.00 元﹝第一款﹞。",
       "close": "8525.00",
       "label": "3443 創意"
@@ -9652,7 +8995,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-09-23",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達34.16%。且六個營業日起迄兩個營業日收盤價價差達2215.00 元﹝第一款﹞。",
       "close": "8385.00",
       "label": "3443 創意"
@@ -9663,7 +9006,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-09-22",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達28.35%。且六個營業日起迄兩個營業日收盤價價差達2340.00 元﹝第一款﹞。",
       "close": "8375.00",
       "label": "3443 創意"
@@ -9674,7 +9017,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-09-21",
-      "count": "11",
+      "count": "10",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1215.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "7615.00",
       "label": "3443 創意"
@@ -9685,7 +9028,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-08-17",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達26.26%。且六個營業日起迄兩個營業日收盤價價差達1320.00 元﹝第一款﹞。",
       "close": "5850.00",
       "label": "3443 創意"
@@ -9696,7 +9039,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-08-13",
-      "count": "11",
+      "count": "10",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1060.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "5540.00",
       "label": "3443 創意"
@@ -9707,7 +9050,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-08-07",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達28.41%。且六個營業日起迄兩個營業日收盤價價差達740.00元﹝第一款﹞。",
       "close": "4545.00",
       "label": "3443 創意"
@@ -9718,7 +9061,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-08-06",
-      "count": "11",
+      "count": "10",
       "reason": "最近六個營業日累積收盤價漲幅達31.96%。且六個營業日起迄兩個營業日收盤價價差達1020.00 元﹝第一款﹞。",
       "close": "4480.00",
       "label": "3443 創意"
@@ -9729,7 +9072,7 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-08-05",
-      "count": "11",
+      "count": "10",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1095.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "4390.00",
       "label": "3443 創意"
@@ -9740,20 +9083,9 @@
       "stock_id": "3443",
       "name": "創意",
       "announce_date": "2026-07-28",
-      "count": "11",
+      "count": "10",
       "reason": "六個營業日起迄兩個營業日收盤價價差達455.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "3660.00",
-      "label": "3443 創意"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "3443",
-      "name": "創意",
-      "announce_date": "2026-07-17",
-      "count": "11",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達505.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "3835.00",
       "label": "3443 創意"
     },
     {
@@ -11038,7 +10370,7 @@
       "stock_id": "4989",
       "name": "榮科",
       "announce_date": "2026-10-08",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日之累積週轉率為62.02%。且10月08日之週轉率為13.76%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "73.20",
       "label": "4989 榮科"
@@ -11049,7 +10381,7 @@
       "stock_id": "4989",
       "name": "榮科",
       "announce_date": "2026-07-30",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價跌幅達33.83%﹝第一款﹞。",
       "close": "51.00",
       "label": "4989 榮科"
@@ -11060,20 +10392,9 @@
       "stock_id": "4989",
       "name": "榮科",
       "announce_date": "2026-07-20",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價跌幅達33.20%﹝第一款﹞。",
       "close": "64.90",
-      "label": "4989 榮科"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "4989",
-      "name": "榮科",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "最近六個營業日累積收盤價跌幅達32.09%﹝第一款﹞。",
-      "close": "70.40",
       "label": "4989 榮科"
     },
     {
@@ -12072,7 +11393,7 @@
       "stock_id": "6243",
       "name": "迅杰",
       "announce_date": "2026-07-28",
-      "count": "4",
+      "count": "3",
       "reason": "07月27日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率61.51%，且07月27日當日沖銷成交量占該日總成交量比率75.10%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "49.60",
       "label": "6243 迅杰"
@@ -12083,7 +11404,7 @@
       "stock_id": "6243",
       "name": "迅杰",
       "announce_date": "2026-07-22",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價漲幅達25.59%。且07月22日之成交量為最近六十個營業日日平均成交量之5.62倍﹝第三款﹞。且07月22日之週轉率為16.75%﹝第四款﹞。",
       "close": "50.10",
       "label": "6243 迅杰"
@@ -12094,20 +11415,9 @@
       "stock_id": "6243",
       "name": "迅杰",
       "announce_date": "2026-07-21",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價漲幅達37.33%﹝第一款﹞。且07月21日之週轉率為10.63%﹝第四款﹞。",
       "close": "51.00",
-      "label": "6243 迅杰"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6243",
-      "name": "迅杰",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "最近六個營業日累積收盤價漲幅達27.56%。且07月17日之成交量為最近六十個營業日日平均成交量之13.10 倍﹝第三款﹞。且07月17日之週轉率為34.63%﹝第四款﹞。",
-      "close": "51.60",
       "label": "6243 迅杰"
     },
     {
@@ -12534,7 +11844,7 @@
       "stock_id": "6505",
       "name": "台塑化",
       "announce_date": "2026-07-22",
-      "count": "3",
+      "count": "2",
       "reason": "最近六個營業日累積收盤價漲幅達26.60%。且07月22日之成交量為最近六十個營業日日平均成交量之5.89倍﹝第三款﹞。",
       "close": "85.10",
       "label": "6505 台塑化"
@@ -12545,20 +11855,9 @@
       "stock_id": "6505",
       "name": "台塑化",
       "announce_date": "2026-07-20",
-      "count": "3",
+      "count": "2",
       "reason": "最近六個營業日累積收盤價漲幅達29.27%。且07月20日之成交量為最近六十個營業日日平均成交量之5.35倍﹝第三款﹞。",
       "close": "77.70",
-      "label": "6505 台塑化"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6505",
-      "name": "台塑化",
-      "announce_date": "2026-07-17",
-      "count": "3",
-      "reason": "最近六個營業日累積收盤價漲幅達32.68%﹝第一款﹞。且07月17日之成交量為最近六十個營業日日平均成交量之10.01 倍﹝第三款﹞。",
-      "close": "81.30",
       "label": "6505 台塑化"
     },
     {
@@ -12567,7 +11866,7 @@
       "stock_id": "6515",
       "name": "穎崴",
       "announce_date": "2026-09-15",
-      "count": "4",
+      "count": "3",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1390.00 元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "6310.00",
       "label": "6515 穎崴"
@@ -12578,7 +11877,7 @@
       "stock_id": "6515",
       "name": "穎崴",
       "announce_date": "2026-08-05",
-      "count": "4",
+      "count": "3",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1470.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "6885.00",
       "label": "6515 穎崴"
@@ -12589,20 +11888,9 @@
       "stock_id": "6515",
       "name": "穎崴",
       "announce_date": "2026-07-28",
-      "count": "4",
+      "count": "3",
       "reason": "六個營業日起迄兩個營業日收盤價價差達720.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "5935.00",
-      "label": "6515 穎崴"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6515",
-      "name": "穎崴",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達1660.57 元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "6055.00",
       "label": "6515 穎崴"
     },
     {
@@ -12875,7 +12163,7 @@
       "stock_id": "6669",
       "name": "緯穎",
       "announce_date": "2026-10-15",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達335.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1905.00",
       "label": "6669 緯穎"
@@ -12886,7 +12174,7 @@
       "stock_id": "6669",
       "name": "緯穎",
       "announce_date": "2026-09-01",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1360.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "7800.00",
       "label": "6669 緯穎"
@@ -12897,7 +12185,7 @@
       "stock_id": "6669",
       "name": "緯穎",
       "announce_date": "2026-08-04",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達890.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "6205.00",
       "label": "6669 緯穎"
@@ -12908,20 +12196,9 @@
       "stock_id": "6669",
       "name": "緯穎",
       "announce_date": "2026-07-27",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1060.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "5745.00",
-      "label": "6669 緯穎"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6669",
-      "name": "緯穎",
-      "announce_date": "2026-07-17",
-      "count": "5",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達420.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "4620.00",
       "label": "6669 緯穎"
     },
     {
@@ -13315,7 +12592,7 @@
       "stock_id": "6831",
       "name": "邁科",
       "announce_date": "2026-08-07",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達30.50%。且六個營業日起迄兩個營業日收盤價價差達112.00元﹝第一款﹞。",
       "close": "637.00",
       "label": "6831 邁科"
@@ -13326,7 +12603,7 @@
       "stock_id": "6831",
       "name": "邁科",
       "announce_date": "2026-08-06",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達26.84%。且六個營業日起迄兩個營業日收盤價價差達178.50元﹝第一款﹞。",
       "close": "656.00",
       "label": "6831 邁科"
@@ -13337,7 +12614,7 @@
       "stock_id": "6831",
       "name": "邁科",
       "announce_date": "2026-07-30",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達192.50元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "477.50",
       "label": "6831 邁科"
@@ -13348,20 +12625,9 @@
       "stock_id": "6831",
       "name": "邁科",
       "announce_date": "2026-07-20",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價跌幅達33.37%。且六個營業日起迄兩個營業日收盤價價差達173.00元﹝第一款﹞。",
       "close": "551.00",
-      "label": "6831 邁科"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6831",
-      "name": "邁科",
-      "announce_date": "2026-07-17",
-      "count": "5",
-      "reason": "最近六個營業日累積收盤價跌幅達27.92%。且六個營業日起迄兩個營業日收盤價價差達170.00元﹝第一款﹞。",
-      "close": "612.00",
       "label": "6831 邁科"
     },
     {
@@ -13546,7 +12812,7 @@
       "stock_id": "6861",
       "name": "睿生光電",
       "announce_date": "2026-09-30",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達32.29%。且六個營業日起迄兩個營業日收盤價價差達67.50 元﹝第一款﹞。",
       "close": "313.50",
       "label": "6861 睿生光電"
@@ -13557,7 +12823,7 @@
       "stock_id": "6861",
       "name": "睿生光電",
       "announce_date": "2026-09-29",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達32.09%。且六個營業日起迄兩個營業日收盤價價差達55.50 元﹝第一款﹞。",
       "close": "285.00",
       "label": "6861 睿生光電"
@@ -13568,7 +12834,7 @@
       "stock_id": "6861",
       "name": "睿生光電",
       "announce_date": "2026-09-23",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日之累積週轉率為53.19%。且09月23日之週轉率為14.18%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "273.00",
       "label": "6861 睿生光電"
@@ -13579,20 +12845,9 @@
       "stock_id": "6861",
       "name": "睿生光電",
       "announce_date": "2026-09-14",
-      "count": "5",
+      "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達26.52%。且09月14日凱基證券商買進之比率為68.23%﹝第五款﹞。",
       "close": "235.50",
-      "label": "6861 睿生光電"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "6861",
-      "name": "睿生光電",
-      "announce_date": "2026-07-17",
-      "count": "5",
-      "reason": "最近六個營業日累積收盤價跌幅達26.20%。且六個營業日起迄兩個營業日收盤價價差達67.00 元﹝第一款﹞。",
-      "close": "225.00",
       "label": "6861 睿生光電"
     },
     {
@@ -13865,7 +13120,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-10-15",
-      "count": "21",
+      "count": "20",
       "reason": "六個營業日起迄兩個營業日收盤價價差達350.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1455.00",
       "label": "7610 聯友金屬-創"
@@ -13876,7 +13131,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-09-15",
-      "count": "21",
+      "count": "20",
       "reason": "六個營業日起迄兩個營業日收盤價價差達410.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1655.00",
       "label": "7610 聯友金屬-創"
@@ -13887,7 +13142,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-09-10",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達30.53%。且六個營業日起迄兩個營業日收盤價價差達380.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達194.92% ﹝第二款﹞。",
       "close": "2035.00",
       "label": "7610 聯友金屬-創"
@@ -13898,7 +13153,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-09-08",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達33.33%。且六個營業日起迄兩個營業日收盤價價差達460.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達211.46% ﹝第二款﹞。",
       "close": "2065.00",
       "label": "7610 聯友金屬-創"
@@ -13909,7 +13164,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-09-07",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達30.74%。且六個營業日起迄兩個營業日收盤價價差達495.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達212.50% ﹝第二款﹞。",
       "close": "2000.00",
       "label": "7610 聯友金屬-創"
@@ -13920,7 +13175,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-09-04",
-      "count": "21",
+      "count": "20",
       "reason": "六個營業日起迄兩個營業日收盤價價差達325.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1820.00",
       "label": "7610 聯友金屬-創"
@@ -13931,7 +13186,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-12",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達28.05%。且六個營業日起迄兩個營業日收盤價價差達300.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達401.32% ﹝第二款﹞。",
       "close": "1895.00",
       "label": "7610 聯友金屬-創"
@@ -13942,7 +13197,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-11",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達36.56%。且六個營業日起迄兩個營業日收盤價價差達420.00元﹝第一款﹞。",
       "close": "1870.00",
       "label": "7610 聯友金屬-創"
@@ -13953,7 +13208,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-10",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達50.66%。且六個營業日起迄兩個營業日收盤價價差達630.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達455.55% ﹝第二款﹞。",
       "close": "1950.00",
       "label": "7610 聯友金屬-創"
@@ -13964,7 +13219,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-07",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達54.84%。且六個營業日起迄兩個營業日收盤價價差達650.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達408.24% ﹝第二款﹞。",
       "close": "1850.00",
       "label": "7610 聯友金屬-創"
@@ -13975,7 +13230,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-06",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價漲幅達39.26%。且六個營業日起迄兩個營業日收盤價價差達655.00元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達375.54% ﹝第二款﹞。",
       "close": "1750.00",
       "label": "7610 聯友金屬-創"
@@ -13986,7 +13241,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-08-05",
-      "count": "21",
+      "count": "20",
       "reason": "六個營業日起迄兩個營業日收盤價價差達380.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1595.00",
       "label": "7610 聯友金屬-創"
@@ -13997,7 +13252,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-31",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達29.61%。且六個營業日起迄兩個營業日收盤價價差達460.00元﹝第一款﹞。",
       "close": "1200.00",
       "label": "7610 聯友金屬-創"
@@ -14008,7 +13263,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-30",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達48.99%。且六個營業日起迄兩個營業日收盤價價差達560.00元﹝第一款﹞。",
       "close": "1095.00",
       "label": "7610 聯友金屬-創"
@@ -14019,7 +13274,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-29",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達45.25%。且六個營業日起迄兩個營業日收盤價價差達620.00元﹝第一款﹞。",
       "close": "1215.00",
       "label": "7610 聯友金屬-創"
@@ -14030,7 +13285,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-28",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達45.15%。且六個營業日起迄兩個營業日收盤價價差達605.00元﹝第一款﹞。",
       "close": "1350.00",
       "label": "7610 聯友金屬-創"
@@ -14041,7 +13296,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-27",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達45.41%。且六個營業日起迄兩個營業日收盤價價差達675.00元﹝第一款﹞。六個營業日起迄兩個營業日收盤價價差達675.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1495.00",
       "label": "7610 聯友金屬-創"
@@ -14052,7 +13307,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-24",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達42.78%。且六個營業日起迄兩個營業日收盤價價差達750.00元﹝第一款﹞。",
       "close": "1660.00",
       "label": "7610 聯友金屬-創"
@@ -14063,7 +13318,7 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-23",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達36.09%。且六個營業日起迄兩個營業日收盤價價差達945.00元﹝第一款﹞。",
       "close": "1655.00",
       "label": "7610 聯友金屬-創"
@@ -14074,20 +13329,9 @@
       "stock_id": "7610",
       "name": "聯友金屬-創",
       "announce_date": "2026-07-22",
-      "count": "21",
+      "count": "20",
       "reason": "最近六個營業日累積收盤價跌幅達26.29%。且六個營業日起迄兩個營業日收盤價價差達595.00元﹝第一款﹞。",
       "close": "1835.00",
-      "label": "7610 聯友金屬-創"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "7610",
-      "name": "聯友金屬-創",
-      "announce_date": "2026-07-17",
-      "count": "21",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達240.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "2410.00",
       "label": "7610 聯友金屬-創"
     },
     {
@@ -14195,7 +13439,7 @@
       "stock_id": "7750",
       "name": "新代",
       "announce_date": "2026-09-11",
-      "count": "4",
+      "count": "3",
       "reason": "六個營業日起迄兩個營業日收盤價價差達420.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1995.00",
       "label": "7750 新代"
@@ -14206,7 +13450,7 @@
       "stock_id": "7750",
       "name": "新代",
       "announce_date": "2026-08-05",
-      "count": "4",
+      "count": "3",
       "reason": "最近六個營業日累積收盤價漲幅達26.23%。且六個營業日起迄兩個營業日收盤價價差達570.00元﹝第一款﹞。",
       "close": "2460.00",
       "label": "7750 新代"
@@ -14217,20 +13461,9 @@
       "stock_id": "7750",
       "name": "新代",
       "announce_date": "2026-07-30",
-      "count": "4",
+      "count": "3",
       "reason": "六個營業日起迄兩個營業日收盤價價差達310.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1850.00",
-      "label": "7750 新代"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "7750",
-      "name": "新代",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達250.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "1815.00",
       "label": "7750 新代"
     },
     {
@@ -14250,7 +13483,7 @@
       "stock_id": "7769",
       "name": "鴻勁",
       "announce_date": "2026-09-29",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達955.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "5585.00",
       "label": "7769 鴻勁"
@@ -14261,7 +13494,7 @@
       "stock_id": "7769",
       "name": "鴻勁",
       "announce_date": "2026-09-08",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1100.00 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "6970.00",
       "label": "7769 鴻勁"
@@ -14272,7 +13505,7 @@
       "stock_id": "7769",
       "name": "鴻勁",
       "announce_date": "2026-08-05",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達1419.99 元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "6530.00",
       "label": "7769 鴻勁"
@@ -14283,20 +13516,9 @@
       "stock_id": "7769",
       "name": "鴻勁",
       "announce_date": "2026-07-28",
-      "count": "5",
+      "count": "4",
       "reason": "六個營業日起迄兩個營業日收盤價價差達750.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "5750.00",
-      "label": "7769 鴻勁"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "7769",
-      "name": "鴻勁",
-      "announce_date": "2026-07-17",
-      "count": "5",
-      "reason": "六個營業日起迄兩個營業日收盤價價差達590.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
-      "close": "6070.00",
       "label": "7769 鴻勁"
     },
     {
@@ -14712,7 +13934,7 @@
       "stock_id": "8028",
       "name": "昇陽半導體",
       "announce_date": "2026-07-22",
-      "count": "4",
+      "count": "3",
       "reason": "07月22日之本益比為68.14，且股價淨值比為10.18 。另當日週轉率為 5.46%，暨摩根大通證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為11.44%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "308.00",
       "label": "8028 昇陽半導體"
@@ -14723,7 +13945,7 @@
       "stock_id": "8028",
       "name": "昇陽半導體",
       "announce_date": "2026-07-21",
-      "count": "4",
+      "count": "3",
       "reason": "07月21日之本益比為67.48，且股價淨值比為10.08 。另當日週轉率為 5.23%，暨美商高盛證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為11.15%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "305.00",
       "label": "8028 昇陽半導體"
@@ -14734,20 +13956,9 @@
       "stock_id": "8028",
       "name": "昇陽半導體",
       "announce_date": "2026-07-20",
-      "count": "4",
+      "count": "3",
       "reason": "07月20日之本益比為66.37，且股價淨值比為9.91。另當日週轉率為 5.19%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "300.00",
-      "label": "8028 昇陽半導體"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "8028",
-      "name": "昇陽半導體",
-      "announce_date": "2026-07-17",
-      "count": "4",
-      "reason": "07月17日之本益比為69.69，且股價淨值比為10.41 。另當日週轉率為 7.75%，暨元大證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為28.00%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
-      "close": "315.00",
       "label": "8028 昇陽半導體"
     },
     {
@@ -14921,7 +14132,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-10-15",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日之累積週轉率為88.18%。且10月15日之週轉率為39.26%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "283.50",
       "label": "8039 台虹"
@@ -14932,7 +14143,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-10-12",
-      "count": "20",
+      "count": "19",
       "reason": "10月08日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率63.14%，且10月08日當日沖銷成交量占該日總成交量比率72.01%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "296.00",
       "label": "8039 台虹"
@@ -14943,7 +14154,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-10-05",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日之累積週轉率為57.50%。且10月05日之週轉率為18.73%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "303.50",
       "label": "8039 台虹"
@@ -14954,7 +14165,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-09-21",
-      "count": "20",
+      "count": "19",
       "reason": "09月18日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率67.06%，且09月18日當日沖銷成交量占該日總成交量比率64.41%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "265.00",
       "label": "8039 台虹"
@@ -14965,7 +14176,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-09-10",
-      "count": "20",
+      "count": "19",
       "reason": "09月09日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.67%，且09月09日當日沖銷成交量占該日總成交量比率71.20%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "275.00",
       "label": "8039 台虹"
@@ -14976,7 +14187,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-09-03",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日之累積週轉率為83.22%。且09月03日之週轉率為14.87%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "293.00",
       "label": "8039 台虹"
@@ -14987,7 +14198,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-09-02",
-      "count": "20",
+      "count": "19",
       "reason": "09月01日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率67.15%，且09月01日當日沖銷成交量占該日總成交量比率70.41%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "313.50",
       "label": "8039 台虹"
@@ -14998,7 +14209,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-27",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日累積收盤價漲幅達27.78%。且六個營業日起迄兩個營業日收盤價價差達69.50 元﹝第一款﹞。最近六十個營業日起迄兩個營業日之收盤價漲幅達135.54% ﹝第二款﹞。08月27日之本益比為 111.90，且股價淨值比為8.31。另當日週轉率為 8.53%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
       "close": "352.50",
       "label": "8039 台虹"
@@ -15009,7 +14220,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-26",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日之累積週轉率為117.88% 。且08月26日之週轉率為17.30%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "320.50",
       "label": "8039 台虹"
@@ -15020,7 +14231,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-24",
-      "count": "20",
+      "count": "19",
       "reason": "08月21日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率74.38%，且08月21日當日沖銷成交量占該日總成交量比率80.57%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "265.00",
       "label": "8039 台虹"
@@ -15031,7 +14242,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-18",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日之累積週轉率為70.64%。且08月18日之週轉率為12.08%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "277.50",
       "label": "8039 台虹"
@@ -15042,7 +14253,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-17",
-      "count": "20",
+      "count": "19",
       "reason": "08月14日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率65.70%，且08月14日當日沖銷成交量占該日總成交量比率73.67%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "259.00",
       "label": "8039 台虹"
@@ -15053,7 +14264,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-11",
-      "count": "20",
+      "count": "19",
       "reason": "08月10日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率62.79%，且08月10日當日沖銷成交量占該日總成交量比率67.55%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "216.00",
       "label": "8039 台虹"
@@ -15064,7 +14275,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-10",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日累積收盤價漲幅達28.07%。且08月10日之週轉率為16.95%﹝第四款﹞。",
       "close": "226.00",
       "label": "8039 台虹"
@@ -15075,7 +14286,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-07",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日累積收盤價漲幅達42.72%。且六個營業日起迄兩個營業日收盤價價差達64.00 元﹝第一款﹞。且08月07日元大證券商買進之比率為37.65%﹝第五款﹞。",
       "close": "237.50",
       "label": "8039 台虹"
@@ -15086,7 +14297,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-08-03",
-      "count": "20",
+      "count": "19",
       "reason": "07月31日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.31%，且07月31日當日沖銷成交量占該日總成交量比率63.59%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "190.50",
       "label": "8039 台虹"
@@ -15097,7 +14308,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-07-31",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日累積收盤價跌幅達36.12%。且六個營業日起迄兩個營業日收盤價價差達66.50 元﹝第一款﹞。且07月31日之週轉率為12.25%﹝第四款﹞。",
       "close": "173.50",
       "label": "8039 台虹"
@@ -15108,7 +14319,7 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-07-23",
-      "count": "20",
+      "count": "19",
       "reason": "最近六個營業日累積收盤價漲幅達36.27%。且六個營業日起迄兩個營業日收盤價價差達56.50 元﹝第一款﹞。且07月23日之週轉率為18.11%﹝第四款﹞。",
       "close": "256.00",
       "label": "8039 台虹"
@@ -15119,20 +14330,9 @@
       "stock_id": "8039",
       "name": "台虹",
       "announce_date": "2026-07-21",
-      "count": "20",
+      "count": "19",
       "reason": "07月20日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率63.42%，且07月20日當日沖銷成交量占該日總成交量比率77.97%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "212.00",
-      "label": "8039 台虹"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "8039",
-      "name": "台虹",
-      "announce_date": "2026-07-17",
-      "count": "20",
-      "reason": "最近六個營業日累積收盤價漲幅達33.76%﹝第一款﹞。且07月17日之週轉率為21.88%﹝第四款﹞。",
-      "close": "192.50",
       "label": "8039 台虹"
     },
     {
@@ -15273,7 +14473,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-10-06",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日之累積週轉率為68.05%。且10月06日之週轉率為11.00%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "127.50",
       "label": "8150 南茂"
@@ -15284,7 +14484,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-09-29",
-      "count": "10",
+      "count": "9",
       "reason": "09月24日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.33%，且09月24日當日沖銷成交量占該日總成交量比率67.17%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "104.50",
       "label": "8150 南茂"
@@ -15295,7 +14495,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-09-24",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價漲幅達26.04%。且09月24日之週轉率為11.90%﹝第四款﹞。",
       "close": "112.00",
       "label": "8150 南茂"
@@ -15306,7 +14506,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-09-23",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日之累積週轉率為53.16%。且09月23日之週轉率為16.49%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "107.00",
       "label": "8150 南茂"
@@ -15317,7 +14517,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-08-13",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日之累積週轉率為51.32%。且08月13日之週轉率為10.30%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "92.90",
       "label": "8150 南茂"
@@ -15328,7 +14528,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-08-12",
-      "count": "10",
+      "count": "9",
       "reason": "08月11日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率66.88%，且08月11日當日沖銷成交量占該日總成交量比率73.90%<font color='#FF0000'>﹝第十三款﹞</font>。",
       "close": "92.20",
       "label": "8150 南茂"
@@ -15339,7 +14539,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-07-31",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價跌幅達27.87%。且07月31日瑞銀證券商賣出之比率為26.19%。且07月31日元大證券商買進之比率為56.71%﹝第五款﹞。",
       "close": "72.60",
       "label": "8150 南茂"
@@ -15350,7 +14550,7 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-07-29",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日累積收盤價跌幅達34.05%﹝第一款﹞。",
       "close": "72.90",
       "label": "8150 南茂"
@@ -15361,20 +14561,9 @@
       "stock_id": "8150",
       "name": "南茂",
       "announce_date": "2026-07-21",
-      "count": "10",
+      "count": "9",
       "reason": "最近六個營業日之累積週轉率為71.35%。且07月21日之週轉率為10.84%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "104.00",
-      "label": "8150 南茂"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "8150",
-      "name": "南茂",
-      "announce_date": "2026-07-17",
-      "count": "10",
-      "reason": "07月16日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.59%，且07月16日當日沖銷成交量占該日總成交量比率69.02%<font color='#FF0000'>﹝第十三款﹞</font>。",
-      "close": "110.50",
       "label": "8150 南茂"
     },
     {
@@ -15526,7 +14715,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-10-13",
-      "count": "22",
+      "count": "21",
       "reason": "10月13日之本益比為 115.49，且股價淨值比為31.14 。另當日週轉率為 7.48%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1715.00",
       "label": "8996 高力"
@@ -15537,7 +14726,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-10-02",
-      "count": "22",
+      "count": "21",
       "reason": "10月02日之本益比為 101.68，且股價淨值比為27.42 。另當日週轉率為 6.26%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1510.00",
       "label": "8996 高力"
@@ -15548,7 +14737,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-10-01",
-      "count": "22",
+      "count": "21",
       "reason": "10月01日之本益比為 105.39，且股價淨值比為28.42 。另當日週轉率為 5.78%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1565.00",
       "label": "8996 高力"
@@ -15559,7 +14748,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-30",
-      "count": "22",
+      "count": "21",
       "reason": "09月30日之本益比為 108.08，且股價淨值比為29.14 。另當日週轉率為 5.21%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1605.00",
       "label": "8996 高力"
@@ -15570,7 +14759,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-29",
-      "count": "22",
+      "count": "21",
       "reason": "09月29日之本益比為 106.73，且股價淨值比為28.78 。另當日週轉率為 5.42%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1585.00",
       "label": "8996 高力"
@@ -15581,7 +14770,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-23",
-      "count": "22",
+      "count": "21",
       "reason": "09月23日之本益比為 103.70，且股價淨值比為27.96 。另當日週轉率為 6.16%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1540.00",
       "label": "8996 高力"
@@ -15592,7 +14781,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-22",
-      "count": "22",
+      "count": "21",
       "reason": "最近六個營業日累積收盤價漲幅達30.54%。且六個營業日起迄兩個營業日收盤價價差達435.00元﹝第一款﹞。09月22日之本益比為 111.45，且股價淨值比為30.05 。另當日週轉率為 6.17%，暨台灣摩根證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為10.14%。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。六個營業日起迄兩個營業日收盤價價差達435.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1655.00",
       "label": "8996 高力"
@@ -15603,7 +14792,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-14",
-      "count": "22",
+      "count": "21",
       "reason": "09月14日之本益比為83.16，且股價淨值比為22.43 。另當日週轉率為 6.65%，暨美林證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為11.82%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1235.00",
       "label": "8996 高力"
@@ -15614,7 +14803,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-11",
-      "count": "22",
+      "count": "21",
       "reason": "09月11日之本益比為89.56，且股價淨值比為24.15 。另當日週轉率為 5.40%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1330.00",
       "label": "8996 高力"
@@ -15625,7 +14814,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-10",
-      "count": "22",
+      "count": "21",
       "reason": "09月10日之本益比為87.54，且股價淨值比為23.61 。另當日週轉率為 5.27%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1300.00",
       "label": "8996 高力"
@@ -15636,7 +14825,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-09",
-      "count": "22",
+      "count": "21",
       "reason": "09月09日之本益比為90.57，且股價淨值比為24.42 。另當日週轉率為 6.50%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1345.00",
       "label": "8996 高力"
@@ -15647,7 +14836,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-07",
-      "count": "22",
+      "count": "21",
       "reason": "09月07日之本益比為83.50，且股價淨值比為22.52 。另當日週轉率為 9.38%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。09月04日之最近六個營業日之借券賣出成交量占最近六個營業日總成交量比率12.76%，且09月04日借券賣出成交量較最近六十個營業日之日平均借券賣出成交量放大為5.51倍<font color='#FF0000'>﹝第十二款﹞</font>。",
       "close": "1240.00",
       "label": "8996 高力"
@@ -15658,7 +14847,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-09-04",
-      "count": "22",
+      "count": "21",
       "reason": "09月04日之本益比為87.54，且股價淨值比為23.61 。另當日週轉率為 5.94%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1300.00",
       "label": "8996 高力"
@@ -15669,7 +14858,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-27",
-      "count": "22",
+      "count": "21",
       "reason": "08月27日之本益比為88.22，且股價淨值比為23.79 。另當日週轉率為 6.63%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1310.00",
       "label": "8996 高力"
@@ -15680,7 +14869,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-25",
-      "count": "22",
+      "count": "21",
       "reason": "08月25日之本益比為81.82，且股價淨值比為22.06 。另當日週轉率為 5.61%，且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1215.00",
       "label": "8996 高力"
@@ -15691,7 +14880,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-14",
-      "count": "22",
+      "count": "21",
       "reason": "08月14日之本益比為86.20，且股價淨值比為23.24 。另當日週轉率為 6.61%，暨美商高盛證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為14.38%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1280.00",
       "label": "8996 高力"
@@ -15702,7 +14891,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-07",
-      "count": "22",
+      "count": "21",
       "reason": "最近六個營業日累積收盤價漲幅達31.62%。且六個營業日起迄兩個營業日收盤價價差達190.00元﹝第一款﹞。",
       "close": "1045.00",
       "label": "8996 高力"
@@ -15713,7 +14902,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-06",
-      "count": "22",
+      "count": "21",
       "reason": "最近六個營業日累積收盤價漲幅達30.12%。且六個營業日起迄兩個營業日收盤價價差達357.00元﹝第一款﹞。六個營業日起迄兩個營業日收盤價價差達357.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1135.00",
       "label": "8996 高力"
@@ -15724,7 +14913,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-08-05",
-      "count": "22",
+      "count": "21",
       "reason": "08月05日之本益比為73.82，且股價淨值比為20.72 。另當日週轉率為 6.58%，暨摩根大通證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為18.23%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "1035.00",
       "label": "8996 高力"
@@ -15735,7 +14924,7 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-07-30",
-      "count": "22",
+      "count": "21",
       "reason": "最近六個營業日累積收盤價跌幅達31.50%。且六個營業日起迄兩個營業日收盤價價差達297.00元﹝第一款﹞。",
       "close": "778.00",
       "label": "8996 高力"
@@ -15746,20 +14935,9 @@
       "stock_id": "8996",
       "name": "高力",
       "announce_date": "2026-07-29",
-      "count": "22",
+      "count": "21",
       "reason": "07月29日之本益比為61.27，且股價淨值比為17.20 。另當日週轉率為 5.10%，暨美商高盛證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為20.46%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。六個營業日起迄兩個營業日收盤價價差達221.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "859.00",
-      "label": "8996 高力"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "8996",
-      "name": "高力",
-      "announce_date": "2026-07-17",
-      "count": "22",
-      "reason": "最近六個營業日累積收盤價跌幅達25.22%。且六個營業日起迄兩個營業日收盤價價差達215.00元﹝第一款﹞。",
-      "close": "1015.00",
       "label": "8996 高力"
     },
     {
@@ -15768,7 +14946,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-10-13",
-      "count": "17",
+      "count": "16",
       "reason": "最近六個營業日累積收盤價漲幅達36.40%﹝第一款﹞。且10月13日之成交量為最近六十個營業日日平均成交量之16.85 倍﹝第三款﹞。且10月13日之週轉率為14.98%﹝第四款﹞。公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價103.14% ﹝第八款﹞。",
       "close": "7.02",
       "label": "9103 美德醫療-DR"
@@ -15779,7 +14957,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-10-12",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價94.06 % ﹝第八款﹞。",
       "close": "6.46",
       "label": "9103 美德醫療-DR"
@@ -15790,7 +14968,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-10-08",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價82.59 % ﹝第八款﹞。",
       "close": "5.88",
       "label": "9103 美德醫療-DR"
@@ -15801,7 +14979,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-10-07",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價72.20 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.35",
       "label": "9103 美德醫療-DR"
@@ -15812,7 +14990,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-10-06",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價72.18 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.08",
       "label": "9103 美德醫療-DR"
@@ -15823,7 +15001,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-09-23",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價74.65 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.00",
       "label": "9103 美德醫療-DR"
@@ -15834,7 +15012,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-09-07",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價69.64 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.15",
       "label": "9103 美德醫療-DR"
@@ -15845,7 +15023,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-09-04",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價77.11 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.14",
       "label": "9103 美德醫療-DR"
@@ -15856,7 +15034,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-08-26",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價81.85 % ﹝第八款﹞。",
       "close": "5.15",
       "label": "9103 美德醫療-DR"
@@ -15867,7 +15045,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-08-21",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價86.07 % ﹝第八款﹞。",
       "close": "5.25",
       "label": "9103 美德醫療-DR"
@@ -15878,7 +15056,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-08-20",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價83.33 % ﹝第八款﹞。",
       "close": "5.21",
       "label": "9103 美德醫療-DR"
@@ -15889,7 +15067,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-08-07",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價82.23 % ﹝第八款﹞。",
       "close": "5.28",
       "label": "9103 美德醫療-DR"
@@ -15900,7 +15078,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-08-05",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價79.02 % 且當日收盤價為最近六個營業日收盤價最高者﹝第八款﹞。",
       "close": "5.30",
       "label": "9103 美德醫療-DR"
@@ -15911,7 +15089,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-07-23",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價90.97 % ﹝第八款﹞。",
       "close": "5.73",
       "label": "9103 美德醫療-DR"
@@ -15922,7 +15100,7 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-07-22",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價84.32 % ﹝第八款﹞。",
       "close": "5.50",
       "label": "9103 美德醫療-DR"
@@ -15933,20 +15111,9 @@
       "stock_id": "9103",
       "name": "美德醫療-DR",
       "announce_date": "2026-07-21",
-      "count": "17",
+      "count": "16",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價83.04 % ﹝第八款﹞。",
       "close": "5.29",
-      "label": "9103 美德醫療-DR"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "9103",
-      "name": "美德醫療-DR",
-      "announce_date": "2026-07-17",
-      "count": "17",
-      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價81.72 % ﹝第八款﹞。",
-      "close": "5.28",
       "label": "9103 美德醫療-DR"
     },
     {
@@ -16032,7 +15199,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-10-15",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價160.75% ﹝第八款﹞。",
       "close": "2.80",
       "label": "911608 明輝-DR"
@@ -16043,7 +15210,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-10-14",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價159.43% ﹝第八款﹞。",
       "close": "2.79",
       "label": "911608 明輝-DR"
@@ -16054,7 +15221,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-10-13",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價156.60% ﹝第八款﹞。",
       "close": "2.75",
       "label": "911608 明輝-DR"
@@ -16065,7 +15232,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-10-12",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價150.94% ﹝第八款﹞。",
       "close": "2.72",
       "label": "911608 明輝-DR"
@@ -16076,7 +15243,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-10-06",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價167.68% ﹝第八款﹞。",
       "close": "2.67",
       "label": "911608 明輝-DR"
@@ -16087,7 +15254,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-09-29",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價190.22% ﹝第八款﹞。",
       "close": "2.70",
       "label": "911608 明輝-DR"
@@ -16098,7 +15265,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-09-21",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價192.47% ﹝第八款﹞。",
       "close": "2.75",
       "label": "911608 明輝-DR"
@@ -16109,7 +15276,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-09-18",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價189.25% ﹝第八款﹞。",
       "close": "2.72",
       "label": "911608 明輝-DR"
@@ -16120,7 +15287,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-09-11",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價193.48% ﹝第八款﹞。",
       "close": "2.72",
       "label": "911608 明輝-DR"
@@ -16131,7 +15298,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-09-02",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價143.12% ﹝第八款﹞。",
       "close": "2.72",
       "label": "911608 明輝-DR"
@@ -16142,7 +15309,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-31",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價145.87% ﹝第八款﹞。",
       "close": "2.73",
       "label": "911608 明輝-DR"
@@ -16153,7 +15320,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-28",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價140.37% ﹝第八款﹞。",
       "close": "2.68",
       "label": "911608 明輝-DR"
@@ -16164,7 +15331,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-18",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價174.23% ﹝第八款﹞。",
       "close": "2.84",
       "label": "911608 明輝-DR"
@@ -16175,7 +15342,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-17",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價171.13% ﹝第八款﹞。",
       "close": "2.66",
       "label": "911608 明輝-DR"
@@ -16186,7 +15353,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-14",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價136.36% ﹝第八款﹞。",
       "close": "2.63",
       "label": "911608 明輝-DR"
@@ -16197,7 +15364,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-12",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價136.36% ﹝第八款﹞。",
       "close": "2.61",
       "label": "911608 明輝-DR"
@@ -16208,7 +15375,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-11",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價130.91% ﹝第八款﹞。",
       "close": "2.60",
       "label": "911608 明輝-DR"
@@ -16219,7 +15386,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-10",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價130.00% ﹝第八款﹞。",
       "close": "2.54",
       "label": "911608 明輝-DR"
@@ -16230,7 +15397,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-08-04",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價135.45% ﹝第八款﹞。",
       "close": "2.80",
       "label": "911608 明輝-DR"
@@ -16241,7 +15408,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-07-31",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價136.36% ﹝第八款﹞。",
       "close": "2.61",
       "label": "911608 明輝-DR"
@@ -16252,7 +15419,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-07-24",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價145.95% ﹝第八款﹞。",
       "close": "2.75",
       "label": "911608 明輝-DR"
@@ -16263,7 +15430,7 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-07-22",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價153.64% ﹝第八款﹞。",
       "close": "2.83",
       "label": "911608 明輝-DR"
@@ -16274,20 +15441,9 @@
       "stock_id": "911608",
       "name": "明輝-DR",
       "announce_date": "2026-07-21",
-      "count": "24",
+      "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價146.36% ﹝第八款﹞。",
       "close": "2.79",
-      "label": "911608 明輝-DR"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "911608",
-      "name": "明輝-DR",
-      "announce_date": "2026-07-17",
-      "count": "24",
-      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價134.78% ﹝第八款﹞。",
-      "close": "2.71",
       "label": "911608 明輝-DR"
     },
     {
@@ -16296,7 +15452,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-10-06",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價270.97% ﹝第八款﹞。",
       "close": "1.16",
       "label": "911868 同方友友-DR"
@@ -16307,7 +15463,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-10-02",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價248.48% ﹝第八款﹞。",
       "close": "1.16",
       "label": "911868 同方友友-DR"
@@ -16318,7 +15474,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-29",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價248.48% ﹝第八款﹞。",
       "close": "1.16",
       "label": "911868 同方友友-DR"
@@ -16329,7 +15485,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-23",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價248.48% ﹝第八款﹞。",
       "close": "1.16",
       "label": "911868 同方友友-DR"
@@ -16340,7 +15496,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-16",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價222.22% ﹝第八款﹞。",
       "close": "1.17",
       "label": "911868 同方友友-DR"
@@ -16351,7 +15507,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-15",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價210.81% ﹝第八款﹞。",
       "close": "1.16",
       "label": "911868 同方友友-DR"
@@ -16362,7 +15518,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-04",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價222.22% ﹝第八款﹞。",
       "close": "1.17",
       "label": "911868 同方友友-DR"
@@ -16373,7 +15529,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-09-01",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價222.22% ﹝第八款﹞。",
       "close": "1.17",
       "label": "911868 同方友友-DR"
@@ -16384,7 +15540,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-08-17",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價213.51% ﹝第八款﹞。",
       "close": "1.17",
       "label": "911868 同方友友-DR"
@@ -16395,7 +15551,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-08-12",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價218.92% ﹝第八款﹞。",
       "close": "1.19",
       "label": "911868 同方友友-DR"
@@ -16406,7 +15562,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-08-07",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價202.56% ﹝第八款﹞。",
       "close": "1.19",
       "label": "911868 同方友友-DR"
@@ -16417,7 +15573,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-07-29",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價187.80% ﹝第八款﹞。",
       "close": "1.20",
       "label": "911868 同方友友-DR"
@@ -16428,7 +15584,7 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-07-23",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價215.79% ﹝第八款﹞。",
       "close": "1.23",
       "label": "911868 同方友友-DR"
@@ -16439,20 +15595,9 @@
       "stock_id": "911868",
       "name": "同方友友-DR",
       "announce_date": "2026-07-21",
-      "count": "15",
+      "count": "14",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價215.79% ﹝第八款﹞。",
       "close": "1.21",
-      "label": "911868 同方友友-DR"
-    },
-    {
-      "market": "TWSE",
-      "type": "attention",
-      "stock_id": "911868",
-      "name": "同方友友-DR",
-      "announce_date": "2026-07-17",
-      "count": "15",
-      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價197.50% ﹝第八款﹞。",
-      "close": "1.20",
       "label": "911868 同方友友-DR"
     },
     {
@@ -17369,6 +16514,18 @@
     {
       "market": "TWSE",
       "type": "disposal",
+      "stock_id": "1447",
+      "name": "力鵬",
+      "announce_date": "2026-07-03",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-17",
+      "measure": "第一次處置",
+      "reason": "連續三次",
+      "label": "1447 力鵬"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
       "stock_id": "1563",
       "name": "巧新",
       "announce_date": "2026-06-02",
@@ -17413,6 +16570,18 @@
       "measure": "第一次處置",
       "reason": "連續三次",
       "label": "1597 直得"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
+      "stock_id": "1617",
+      "name": "榮星",
+      "announce_date": "2026-07-03",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-17",
+      "measure": "第一次處置",
+      "reason": "連續三次",
+      "label": "1617 榮星"
     },
     {
       "market": "TWSE",
@@ -18013,6 +17182,18 @@
       "measure": "第一次處置",
       "reason": "連續三次",
       "label": "3030 德律"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
+      "stock_id": "3055",
+      "name": "蔚華科",
+      "announce_date": "2026-07-03",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-17",
+      "measure": "第一次處置",
+      "reason": "連續三次",
+      "label": "3055 蔚華科"
     },
     {
       "market": "TWSE",
@@ -18833,6 +18014,18 @@
     {
       "market": "TWSE",
       "type": "disposal",
+      "stock_id": "7795",
+      "name": "長廣",
+      "announce_date": "2026-07-03",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-17",
+      "measure": "第一次處置",
+      "reason": "連續三次",
+      "label": "7795 長廣"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
       "stock_id": "8021",
       "name": "尖點",
       "announce_date": "2026-07-02",
@@ -18931,6 +18124,18 @@
       "type": "disposal",
       "stock_id": "911608",
       "name": "明輝-DR",
+      "announce_date": "2026-07-03",
+      "period_start": "2026-07-06",
+      "period_end": "2026-07-17",
+      "measure": "第一次處置",
+      "reason": "最近三十個營業日已有十二次",
+      "label": "911608 明輝-DR"
+    },
+    {
+      "market": "TWSE",
+      "type": "disposal",
+      "stock_id": "911608",
+      "name": "明輝-DR",
       "announce_date": "2026-05-12",
       "period_start": "2026-05-13",
       "period_end": "2026-05-26",
@@ -18970,6 +18175,17 @@
       "reason": "六個營業日起迄兩個營業日收盤價價差達123.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "292.00",
       "label": "032048 臺股指元富56購10"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "036852",
+      "name": "華邦電統一5C購01",
+      "announce_date": "2026-07-17",
+      "count": "1",
+      "reason": "最近六個營業日累積收盤價跌幅達38.03%﹝第一款﹞。",
+      "close": "11.60",
+      "label": "036852 華邦電統一5C購01"
     },
     {
       "market": "TWSE",
@@ -19025,6 +18241,17 @@
       "reason": "六個營業日起迄兩個營業日收盤價價差達123.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "406.00",
       "label": "038565 景碩永豐56購01"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "039438",
+      "name": "東元統一6A購02",
+      "announce_date": "2026-07-17",
+      "count": "1",
+      "reason": "最近六個營業日累積收盤價跌幅達33.95%﹝第一款﹞。",
+      "close": "0.12",
+      "label": "039438 東元統一6A購02"
     },
     {
       "market": "TWSE",
@@ -20789,6 +20016,17 @@
     {
       "market": "TWSE",
       "type": "attention",
+      "stock_id": "1517",
+      "name": "利奇",
+      "announce_date": "2026-07-17",
+      "count": "1",
+      "reason": "最近六個營業日平均成交量較最近六十個營業日之日平均成交量放大為5.06倍。當日之成交量較最近六十個營業日之平均成交量放大為 21.01倍<font color='#FF0000'>﹝第九款﹞</font>。",
+      "close": "12.15",
+      "label": "1517 利奇"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
       "stock_id": "1519",
       "name": "華城",
       "announce_date": "2026-06-10",
@@ -22210,6 +21448,17 @@
       "type": "attention",
       "stock_id": "2327",
       "name": "國巨*",
+      "announce_date": "2026-07-17",
+      "count": "3",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達201.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "699.00",
+      "label": "2327 國巨*"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2327",
+      "name": "國巨*",
       "announce_date": "2026-07-14",
       "count": "4",
       "reason": "最近六個營業日累積收盤價跌幅達28.28%。且六個營業日起迄兩個營業日收盤價價差達227.00元﹝第一款﹞。",
@@ -23574,6 +22823,17 @@
       "type": "attention",
       "stock_id": "2434",
       "name": "統懋",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "最近六個營業日累積收盤價漲幅達39.83%﹝第一款﹞。",
+      "close": "81.80",
+      "label": "2434 統懋"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2434",
+      "name": "統懋",
       "announce_date": "2026-07-16",
       "count": "5",
       "reason": "最近六個營業日累積收盤價漲幅達59.66%﹝第一款﹞。且07月16日之週轉率為11.48%﹝第四款﹞。最近三十個營業日起迄兩個營業日之收盤價漲幅達145.73% 。最近六十個營業日起迄兩個營業日之收盤價漲幅達199.17% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達202.66% ﹝第二款﹞。",
@@ -23733,6 +22993,17 @@
       "reason": "最近六個營業日累積收盤價漲幅達33.07%﹝第一款﹞。",
       "close": "141.00",
       "label": "2441 超豐"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2454",
+      "name": "聯發科",
+      "announce_date": "2026-07-17",
+      "count": "7",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達555.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "3370.00",
+      "label": "2454 聯發科"
     },
     {
       "market": "TWSE",
@@ -24355,6 +23626,17 @@
       "type": "attention",
       "stock_id": "2481",
       "name": "強茂",
+      "announce_date": "2026-07-17",
+      "count": "9",
+      "reason": "最近六個營業日累積收盤價跌幅達31.90%。且六個營業日起迄兩個營業日收盤價價差達61.50 元﹝第一款﹞。",
+      "close": "151.50",
+      "label": "2481 強茂"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2481",
+      "name": "強茂",
       "announce_date": "2026-07-06",
       "count": "9",
       "reason": "最近六個營業日累積收盤價漲幅達27.98%。且六個營業日起迄兩個營業日收盤價價差達61.50 元﹝第一款﹞。最近九十個營業日起迄兩個營業日之收盤價漲幅達162.05% ﹝第二款﹞。",
@@ -24465,6 +23747,17 @@
       "type": "attention",
       "stock_id": "2483",
       "name": "百容",
+      "announce_date": "2026-07-17",
+      "count": "3",
+      "reason": "最近六個營業日累積收盤價跌幅達36.04%﹝第一款﹞。",
+      "close": "43.50",
+      "label": "2483 百容"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2483",
+      "name": "百容",
       "announce_date": "2026-07-03",
       "count": "4",
       "reason": "最近三十個營業日起迄兩個營業日之收盤價漲幅達158.57% 。最近六十個營業日起迄兩個營業日之收盤價漲幅達216.50% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達229.58% ﹝第二款﹞。",
@@ -24569,6 +23862,17 @@
       "reason": "最近六個營業日累積收盤價漲幅達27.62%。且06月08日之成交量為最近六十個營業日日平均成交量之14.43 倍﹝第三款﹞。且06月08日之週轉率為10.08%﹝第四款﹞。",
       "close": "33.45",
       "label": "2483 百容"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2484",
+      "name": "希華",
+      "announce_date": "2026-07-17",
+      "count": "15",
+      "reason": "最近六個營業日之累積週轉率為125.93% 。且07月17日之週轉率為14.13%<font color='#FF0000'>﹝第十款﹞</font>。",
+      "close": "80.70",
+      "label": "2484 希華"
     },
     {
       "market": "TWSE",
@@ -25031,6 +24335,17 @@
       "reason": "最近六個營業日累積收盤價漲幅達34.04%﹝第一款﹞。",
       "close": "30.95",
       "label": "2491 吉祥全"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "2492",
+      "name": "華新科",
+      "announce_date": "2026-07-17",
+      "count": "10",
+      "reason": "最近六個營業日累積收盤價跌幅達40.83%。且六個營業日起迄兩個營業日收盤價價差達158.00元﹝第一款﹞。且07月17日美商高盛證券商買進之比率為68.24%。且07月17日摩根大通證券商賣出之比率為66.38%﹝第五款﹞。六個營業日起迄兩個營業日收盤價價差達158.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "307.50",
+      "label": "2492 華新科"
     },
     {
       "market": "TWSE",
@@ -26137,6 +25452,17 @@
       "type": "attention",
       "stock_id": "3026",
       "name": "禾伸堂",
+      "announce_date": "2026-07-17",
+      "count": "18",
+      "reason": "最近六個營業日累積收盤價跌幅達30.13%。且六個營業日起迄兩個營業日收盤價價差達315.00元﹝第一款﹞。07月17日之本益比為88.92，且股價淨值比為11.82 。另當日週轉率為 5.50%，單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
+      "close": "690.00",
+      "label": "3026 禾伸堂"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "3026",
+      "name": "禾伸堂",
       "announce_date": "2026-07-14",
       "count": "19",
       "reason": "六個營業日起迄兩個營業日收盤價價差達148.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
@@ -26428,6 +25754,17 @@
       "reason": "六個營業日起迄兩個營業日收盤價價差達149.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "970.00",
       "label": "3037 欣興"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "3042",
+      "name": "晶技",
+      "announce_date": "2026-07-17",
+      "count": "7",
+      "reason": "07月16日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.66%，且07月16日當日沖銷成交量占該日總成交量比率66.77%<font color='#FF0000'>﹝第十三款﹞</font>。",
+      "close": "168.50",
+      "label": "3042 晶技"
     },
     {
       "market": "TWSE",
@@ -26747,6 +26084,17 @@
       "reason": "最近六個營業日累積收盤價漲幅達27.25%。且06月18日之成交量為最近六十個營業日日平均成交量之5.38倍﹝第三款﹞。且06月18日之週轉率為16.39%﹝第四款﹞。",
       "close": "37.90",
       "label": "3060 銘異"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "3090",
+      "name": "日電貿",
+      "announce_date": "2026-07-17",
+      "count": "5",
+      "reason": "最近六個營業日累積收盤價跌幅達42.68%。且六個營業日起迄兩個營業日收盤價價差達92.00 元﹝第一款﹞。",
+      "close": "194.50",
+      "label": "3090 日電貿"
     },
     {
       "market": "TWSE",
@@ -27605,6 +26953,17 @@
       "reason": "六個營業日起迄兩個營業日收盤價價差達141.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "719.00",
       "label": "3406 玉晶光"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "3443",
+      "name": "創意",
+      "announce_date": "2026-07-17",
+      "count": "11",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達505.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "3835.00",
+      "label": "3443 創意"
     },
     {
       "market": "TWSE",
@@ -29393,6 +28752,17 @@
       "type": "attention",
       "stock_id": "4989",
       "name": "榮科",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "最近六個營業日累積收盤價跌幅達32.09%﹝第一款﹞。",
+      "close": "70.40",
+      "label": "4989 榮科"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "4989",
+      "name": "榮科",
       "announce_date": "2026-07-06",
       "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達31.32%。且07月06日之週轉率為29.43%﹝第四款﹞。",
@@ -30174,6 +29544,17 @@
       "type": "attention",
       "stock_id": "6243",
       "name": "迅杰",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "最近六個營業日累積收盤價漲幅達27.56%。且07月17日之成交量為最近六十個營業日日平均成交量之13.10 倍﹝第三款﹞。且07月17日之週轉率為34.63%﹝第四款﹞。",
+      "close": "51.60",
+      "label": "6243 迅杰"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6243",
+      "name": "迅杰",
       "announce_date": "2026-06-26",
       "count": "5",
       "reason": "最近六個營業日累積收盤價漲幅達32.13%﹝第一款﹞。",
@@ -30922,11 +30303,33 @@
       "type": "attention",
       "stock_id": "6505",
       "name": "台塑化",
+      "announce_date": "2026-07-17",
+      "count": "3",
+      "reason": "最近六個營業日累積收盤價漲幅達32.68%﹝第一款﹞。且07月17日之成交量為最近六十個營業日日平均成交量之10.01 倍﹝第三款﹞。",
+      "close": "81.30",
+      "label": "6505 台塑化"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6505",
+      "name": "台塑化",
       "announce_date": "2026-07-16",
       "count": "4",
       "reason": "最近六個營業日累積收盤價漲幅達33.47%﹝第一款﹞。且07月16日之成交量為最近六十個營業日日平均成交量之7.27倍﹝第三款﹞。",
       "close": "80.00",
       "label": "6505 台塑化"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6515",
+      "name": "穎崴",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達1660.57 元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "6055.00",
+      "label": "6515 穎崴"
     },
     {
       "market": "TWSE",
@@ -31235,6 +30638,17 @@
       "reason": "最近三十個營業日起迄兩個營業日之收盤價漲幅達178.08% 。最近六十個營業日起迄兩個營業日之收盤價漲幅達269.76% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達270.43% ﹝第二款﹞。",
       "close": "203.00",
       "label": "6658 聯策"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6669",
+      "name": "緯穎",
+      "announce_date": "2026-07-17",
+      "count": "5",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達420.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "4620.00",
+      "label": "6669 緯穎"
     },
     {
       "market": "TWSE",
@@ -31857,6 +31271,17 @@
       "type": "attention",
       "stock_id": "6831",
       "name": "邁科",
+      "announce_date": "2026-07-17",
+      "count": "5",
+      "reason": "最近六個營業日累積收盤價跌幅達27.92%。且六個營業日起迄兩個營業日收盤價價差達170.00元﹝第一款﹞。",
+      "close": "612.00",
+      "label": "6831 邁科"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6831",
+      "name": "邁科",
       "announce_date": "2026-07-14",
       "count": "6",
       "reason": "最近六個營業日累積收盤價跌幅達27.92%。且六個營業日起迄兩個營業日收盤價價差達171.00元﹝第一款﹞。",
@@ -32082,6 +31507,17 @@
       "reason": "最近六個營業日累積收盤價漲幅達34.60%﹝第一款﹞。且05月20日富邦證券商買進之比率為39.85%﹝第五款﹞。",
       "close": "60.60",
       "label": "6834 天二科技"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "6861",
+      "name": "睿生光電",
+      "announce_date": "2026-07-17",
+      "count": "5",
+      "reason": "最近六個營業日累積收盤價跌幅達26.20%。且六個營業日起迄兩個營業日收盤價價差達67.00 元﹝第一款﹞。",
+      "close": "225.00",
+      "label": "6861 睿生光電"
     },
     {
       "market": "TWSE",
@@ -32385,6 +31821,17 @@
       "type": "attention",
       "stock_id": "7610",
       "name": "聯友金屬-創",
+      "announce_date": "2026-07-17",
+      "count": "21",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達240.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "2410.00",
+      "label": "7610 聯友金屬-創"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "7610",
+      "name": "聯友金屬-創",
       "announce_date": "2026-07-16",
       "count": "21",
       "reason": "最近六個營業日累積收盤價漲幅達27.08%。且六個營業日起迄兩個營業日收盤價價差達115.00元﹝第一款﹞。最近六十個營業日起迄兩個營業日之收盤價漲幅達314.01% 。最近九十個營業日起迄兩個營業日之收盤價漲幅達801.21% ﹝第二款﹞。",
@@ -32660,6 +32107,17 @@
       "type": "attention",
       "stock_id": "7750",
       "name": "新代",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達250.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "1815.00",
+      "label": "7750 新代"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "7750",
+      "name": "新代",
       "announce_date": "2026-06-18",
       "count": "5",
       "reason": "六個營業日起迄兩個營業日收盤價價差達280.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
@@ -32676,6 +32134,17 @@
       "reason": "六個營業日起迄兩個營業日收盤價價差達280.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "2630.00",
       "label": "7750 新代"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "7769",
+      "name": "鴻勁",
+      "announce_date": "2026-07-17",
+      "count": "5",
+      "reason": "六個營業日起迄兩個營業日收盤價價差達590.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
+      "close": "6070.00",
+      "label": "7769 鴻勁"
     },
     {
       "market": "TWSE",
@@ -33012,6 +32481,17 @@
       "type": "attention",
       "stock_id": "8028",
       "name": "昇陽半導體",
+      "announce_date": "2026-07-17",
+      "count": "4",
+      "reason": "07月17日之本益比為69.69，且股價淨值比為10.41 。另當日週轉率為 7.75%，暨元大證券商成交賣出金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為28.00%。單一投資人當日賣出該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
+      "close": "315.00",
+      "label": "8028 昇陽半導體"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "8028",
+      "name": "昇陽半導體",
       "announce_date": "2026-07-16",
       "count": "5",
       "reason": "07月16日之本益比為77.43，且股價淨值比為11.56 。另當日週轉率為 9.46%，暨瑞銀證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為17.20%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上﹝第六款﹞。",
@@ -33226,6 +32706,17 @@
       "reason": "05月29日之本益比為 213.43，且股價淨值比為11.31 。另當日週轉率為 5.07%，暨摩根大通證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為10.03%。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。",
       "close": "143.00",
       "label": "8033 雷虎"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "8039",
+      "name": "台虹",
+      "announce_date": "2026-07-17",
+      "count": "20",
+      "reason": "最近六個營業日累積收盤價漲幅達33.76%﹝第一款﹞。且07月17日之週轉率為21.88%﹝第四款﹞。",
+      "close": "192.50",
+      "label": "8039 台虹"
     },
     {
       "market": "TWSE",
@@ -33501,6 +32992,17 @@
       "reason": "最近六個營業日之累積週轉率為59.13%。且06月04日之週轉率為11.70%<font color='#FF0000'>﹝第十款﹞</font>。",
       "close": "95.60",
       "label": "8112 至上"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "8150",
+      "name": "南茂",
+      "announce_date": "2026-07-17",
+      "count": "10",
+      "reason": "07月16日之最近六個營業日之當日沖銷成交量占最近六個營業日總成交量比率60.59%，且07月16日當日沖銷成交量占該日總成交量比率69.02%<font color='#FF0000'>﹝第十三款﹞</font>。",
+      "close": "110.50",
+      "label": "8150 南茂"
     },
     {
       "market": "TWSE",
@@ -33969,6 +33471,17 @@
       "type": "attention",
       "stock_id": "8996",
       "name": "高力",
+      "announce_date": "2026-07-17",
+      "count": "22",
+      "reason": "最近六個營業日累積收盤價跌幅達25.22%。且六個營業日起迄兩個營業日收盤價價差達215.00元﹝第一款﹞。",
+      "close": "1015.00",
+      "label": "8996 高力"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "8996",
+      "name": "高力",
       "announce_date": "2026-07-16",
       "count": "23",
       "reason": "六個營業日起迄兩個營業日收盤價價差達195.00元且當日收盤價為最近六個營業日收盤價最低者<font color='#FF0000'>﹝第十一款﹞</font>。",
@@ -34084,6 +33597,17 @@
       "reason": "05月26日之本益比為88.80，且股價淨值比為24.93 。另當日週轉率為 5.06%，暨美商高盛證券商成交買進金額達新臺幣壹億元以上，且占當日該有價證券總成交金額比率為21.40%。單一投資人當日買進該有價證券之成交金額占當日該有價證券總成交金額比率10%以上，且達新台幣壹億元以上。且其股價淨值比較該類股股價淨值比四倍以上﹝第六款﹞。六個營業日起迄兩個營業日收盤價價差達205.00元且當日收盤價為最近六個營業日收盤價最高者<font color='#FF0000'>﹝第十一款﹞</font>。",
       "close": "1245.00",
       "label": "8996 高力"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "9103",
+      "name": "美德醫療-DR",
+      "announce_date": "2026-07-17",
+      "count": "17",
+      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價81.72 % ﹝第八款﹞。",
+      "close": "5.28",
+      "label": "9103 美德醫療-DR"
     },
     {
       "market": "TWSE",
@@ -34299,6 +33823,17 @@
       "type": "attention",
       "stock_id": "911608",
       "name": "明輝-DR",
+      "announce_date": "2026-07-17",
+      "count": "24",
+      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價134.78% ﹝第八款﹞。",
+      "close": "2.71",
+      "label": "911608 明輝-DR"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "911608",
+      "name": "明輝-DR",
       "announce_date": "2026-07-15",
       "count": "23",
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價209.20% ﹝第八款﹞。",
@@ -34447,6 +33982,17 @@
       "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價116.39% ﹝第八款﹞。",
       "close": "2.67",
       "label": "911608 明輝-DR"
+    },
+    {
+      "market": "TWSE",
+      "type": "attention",
+      "stock_id": "911868",
+      "name": "同方友友-DR",
+      "announce_date": "2026-07-17",
+      "count": "15",
+      "reason": "公開資訊觀測站公告當日之前一個營業日臺灣存託憑證兩地收盤價溢價197.50% ﹝第八款﹞。",
+      "close": "1.20",
+      "label": "911868 同方友友-DR"
     },
     {
       "market": "TWSE",
@@ -45791,142 +45337,8 @@
       "period_start": "2026-10-13",
       "period_end": "2026-10-19"
     },
-    "1709": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 45.85,
-          "high": 46.45,
-          "low": 43.5,
-          "close": 43.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 43.5,
-          "high": 44.95,
-          "low": 43.2,
-          "close": 44.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 44.1,
-          "high": 48.4,
-          "low": 44.0,
-          "close": 48.4,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 51.8,
-          "high": 53.2,
-          "low": 51.6,
-          "close": 53.2,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 55.5,
-          "high": 58.5,
-          "low": 54.7,
-          "close": 58.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 63.8,
-          "high": 64.3,
-          "low": 63.6,
-          "close": 64.3,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 66.2,
-          "high": 66.3,
-          "low": 58.2,
-          "close": 63.3,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 63.3,
-          "high": 64.6,
-          "low": 59.2,
-          "close": 60.2,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 60.2,
-          "high": 62.0,
-          "low": 59.0,
-          "close": 61.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 55.6,
-          "high": 58.9,
-          "low": 55.6,
-          "close": 58.6,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 57.4,
-          "high": 60.1,
-          "low": 57.0,
-          "close": 59.9,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 59.0,
-          "high": 63.8,
-          "low": 58.6,
-          "close": 63.8,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 61.2,
-          "high": 62.6,
-          "low": 58.5,
-          "close": 58.8,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
-    },
     "2466": {
       "series": [
-        {
-          "date": "2026-09-24",
-          "open": 113.5,
-          "high": 120.5,
-          "low": 113.0,
-          "close": 119.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 119.5,
-          "high": 119.5,
-          "low": 112.5,
-          "close": 113.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 115.0,
-          "high": 124.5,
-          "low": 115.0,
-          "close": 124.5,
-          "in_disposal": false
-        },
         {
           "date": "2026-10-01",
           "open": 128.0,
@@ -45973,7 +45385,7 @@
           "high": 198.5,
           "low": 180.0,
           "close": 198.5,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-12",
@@ -45981,7 +45393,7 @@
           "high": 218.0,
           "low": 205.0,
           "close": 218.0,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-13",
@@ -45989,7 +45401,7 @@
           "high": 239.5,
           "low": 217.0,
           "close": 237.0,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-14",
@@ -46008,8 +45420,8 @@
           "in_disposal": true
         }
       ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
+      "period_start": "2026-10-14",
+      "period_end": "2026-10-20"
     },
     "2492": {
       "series": [
@@ -46104,116 +45516,6 @@
       ],
       "period_start": "2026-10-13",
       "period_end": "2026-10-19"
-    },
-    "3701": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 41.25,
-          "high": 41.65,
-          "low": 40.9,
-          "close": 41.25,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 41.15,
-          "high": 42.9,
-          "low": 41.15,
-          "close": 41.75,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 42.25,
-          "high": 45.9,
-          "low": 42.25,
-          "close": 45.9,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 46.25,
-          "high": 50.4,
-          "low": 43.9,
-          "close": 50.4,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 53.0,
-          "high": 55.4,
-          "low": 51.2,
-          "close": 55.4,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 60.9,
-          "high": 60.9,
-          "low": 60.9,
-          "close": 60.9,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 60.8,
-          "high": 65.4,
-          "low": 58.4,
-          "close": 59.3,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 64.0,
-          "high": 64.9,
-          "low": 59.1,
-          "close": 61.1,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 61.5,
-          "high": 63.2,
-          "low": 60.6,
-          "close": 63.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 60.5,
-          "high": 62.9,
-          "low": 60.3,
-          "close": 62.1,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 62.9,
-          "high": 63.0,
-          "low": 58.8,
-          "close": 60.8,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 62.9,
-          "high": 64.9,
-          "low": 61.8,
-          "close": 64.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 60.1,
-          "high": 62.0,
-          "low": 59.2,
-          "close": 60.1,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
     },
     "6213": {
       "series": [
@@ -46426,116 +45728,6 @@
       ],
       "period_start": "2026-10-12",
       "period_end": "2026-10-16"
-    },
-    "6957": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 298.5,
-          "high": 307.0,
-          "low": 287.0,
-          "close": 307.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 334.5,
-          "high": 337.5,
-          "low": 307.5,
-          "close": 337.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 365.0,
-          "high": 371.0,
-          "low": 356.0,
-          "close": 371.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 400.0,
-          "high": 400.0,
-          "low": 364.0,
-          "close": 384.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 375.0,
-          "high": 389.0,
-          "low": 366.0,
-          "close": 377.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 386.0,
-          "high": 413.0,
-          "low": 380.5,
-          "close": 410.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 417.5,
-          "high": 417.5,
-          "low": 391.0,
-          "close": 404.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 405.0,
-          "high": 444.0,
-          "low": 404.5,
-          "close": 444.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 444.0,
-          "high": 450.0,
-          "low": 430.5,
-          "close": 448.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 436.5,
-          "high": 460.0,
-          "low": 436.5,
-          "close": 456.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 454.0,
-          "high": 470.0,
-          "low": 448.0,
-          "close": 470.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 475.0,
-          "high": 475.0,
-          "low": 465.0,
-          "close": 473.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 467.0,
-          "high": 467.5,
-          "low": 440.0,
-          "close": 463.0,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
     },
     "8021": {
       "series": [
@@ -46900,22 +46092,6 @@
     "5205": {
       "series": [
         {
-          "date": "2026-09-24",
-          "open": 16.6,
-          "high": 17.3,
-          "low": 16.5,
-          "close": 17.3,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 17.3,
-          "high": 18.9,
-          "low": 17.3,
-          "close": 18.9,
-          "in_disposal": false
-        },
-        {
           "date": "2026-10-01",
           "open": 20.75,
           "high": 20.75,
@@ -46961,7 +46137,7 @@
           "high": 33.3,
           "low": 33.2,
           "close": 33.3,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-12",
@@ -46969,7 +46145,7 @@
           "high": 36.6,
           "low": 35.5,
           "close": 36.6,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-13",
@@ -46977,7 +46153,7 @@
           "high": 40.25,
           "low": 32.95,
           "close": 38.55,
-          "in_disposal": true
+          "in_disposal": false
         },
         {
           "date": "2026-10-14",
@@ -46996,8 +46172,8 @@
           "in_disposal": true
         }
       ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
+      "period_start": "2026-10-14",
+      "period_end": "2026-10-20"
     },
     "7772": {
       "series": [
@@ -47586,336 +46762,6 @@
       ],
       "period_start": "2026-10-08",
       "period_end": "2026-10-19"
-    },
-    "4174": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 33.0,
-          "high": 34.15,
-          "low": 32.05,
-          "close": 32.45,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 32.65,
-          "high": 35.65,
-          "low": 32.45,
-          "close": 35.65,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 39.0,
-          "high": 39.2,
-          "low": 38.55,
-          "close": 39.2,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 43.1,
-          "high": 43.1,
-          "low": 43.1,
-          "close": 43.1,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 45.6,
-          "high": 45.6,
-          "low": 40.1,
-          "close": 42.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 45.0,
-          "high": 46.2,
-          "low": 43.1,
-          "close": 46.2,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 46.15,
-          "high": 50.8,
-          "low": 45.85,
-          "close": 50.8,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 50.8,
-          "high": 54.3,
-          "low": 50.8,
-          "close": 52.1,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 52.0,
-          "high": 54.0,
-          "low": 50.0,
-          "close": 53.7,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 57.9,
-          "high": 58.9,
-          "low": 56.0,
-          "close": 57.5,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 56.9,
-          "high": 57.6,
-          "low": 54.0,
-          "close": 55.8,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 59.8,
-          "high": 59.8,
-          "low": 57.5,
-          "close": 59.7,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 59.7,
-          "high": 61.0,
-          "low": 57.4,
-          "close": 59.9,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
-    },
-    "4760": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 265.0,
-          "high": 271.0,
-          "low": 265.0,
-          "close": 268.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 268.0,
-          "high": 268.0,
-          "low": 259.5,
-          "close": 260.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 264.0,
-          "high": 264.5,
-          "low": 260.0,
-          "close": 262.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 267.0,
-          "high": 288.5,
-          "low": 267.0,
-          "close": 288.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 302.0,
-          "high": 317.0,
-          "low": 302.0,
-          "close": 317.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 348.5,
-          "high": 348.5,
-          "low": 348.5,
-          "close": 348.5,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 335.0,
-          "high": 356.0,
-          "low": 320.0,
-          "close": 335.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 331.0,
-          "high": 354.0,
-          "low": 331.0,
-          "close": 334.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 337.5,
-          "high": 367.0,
-          "low": 334.0,
-          "close": 367.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 372.0,
-          "high": 372.0,
-          "low": 350.0,
-          "close": 369.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 362.0,
-          "high": 377.0,
-          "low": 355.5,
-          "close": 370.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 375.0,
-          "high": 401.0,
-          "low": 366.0,
-          "close": 399.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 381.5,
-          "high": 394.5,
-          "low": 364.5,
-          "close": 368.5,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
-    },
-    "8358": {
-      "series": [
-        {
-          "date": "2026-09-24",
-          "open": 498.0,
-          "high": 511.0,
-          "low": 495.0,
-          "close": 511.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-29",
-          "open": 500.0,
-          "high": 519.0,
-          "low": 495.5,
-          "close": 498.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-09-30",
-          "open": 509.0,
-          "high": 515.0,
-          "low": 495.0,
-          "close": 495.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-01",
-          "open": 500.0,
-          "high": 521.0,
-          "low": 500.0,
-          "close": 505.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-02",
-          "open": 514.0,
-          "high": 536.0,
-          "low": 511.0,
-          "close": 519.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-05",
-          "open": 534.0,
-          "high": 570.0,
-          "low": 526.0,
-          "close": 570.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-06",
-          "open": 577.0,
-          "high": 578.0,
-          "low": 548.0,
-          "close": 551.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-07",
-          "open": 536.0,
-          "high": 560.0,
-          "low": 530.0,
-          "close": 549.0,
-          "in_disposal": false
-        },
-        {
-          "date": "2026-10-08",
-          "open": 540.0,
-          "high": 542.0,
-          "low": 533.0,
-          "close": 535.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-12",
-          "open": 535.0,
-          "high": 536.0,
-          "low": 519.0,
-          "close": 522.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-13",
-          "open": 505.0,
-          "high": 508.0,
-          "low": 478.5,
-          "close": 493.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-14",
-          "open": 500.0,
-          "high": 505.0,
-          "low": 493.0,
-          "close": 502.0,
-          "in_disposal": true
-        },
-        {
-          "date": "2026-10-15",
-          "open": 468.5,
-          "high": 478.0,
-          "low": 453.0,
-          "close": 461.5,
-          "in_disposal": true
-        }
-      ],
-      "period_start": "2026-10-08",
-      "period_end": "2026-10-15"
     }
   },
   "institutional_context": {
@@ -47924,8 +46770,8 @@
       "streak": 0,
       "asof": "2026-10-14"
     },
-    "1709": {
-      "net5_lots": 4025.2,
+    "2424": {
+      "net5_lots": 39.0,
       "streak": 0,
       "asof": "2026-10-15"
     },
@@ -47939,11 +46785,6 @@
       "streak": 3,
       "asof": "2026-10-15"
     },
-    "3701": {
-      "net5_lots": 324.3,
-      "streak": 3,
-      "asof": "2026-10-15"
-    },
     "6213": {
       "net5_lots": -868.1,
       "streak": 0,
@@ -47952,11 +46793,6 @@
     "6672": {
       "net5_lots": 747.2,
       "streak": 2,
-      "asof": "2026-10-15"
-    },
-    "6957": {
-      "net5_lots": -158.6,
-      "streak": 1,
       "asof": "2026-10-15"
     },
     "8021": {
@@ -48011,21 +46847,6 @@
     },
     "3441": {
       "net5_lots": 133.2,
-      "streak": 0,
-      "asof": "2026-10-15"
-    },
-    "4174": {
-      "net5_lots": 23.7,
-      "streak": 2,
-      "asof": "2026-10-15"
-    },
-    "4760": {
-      "net5_lots": 126.0,
-      "streak": 0,
-      "asof": "2026-10-15"
-    },
-    "8358": {
-      "net5_lots": -919.3,
       "streak": 0,
       "asof": "2026-10-15"
     }
